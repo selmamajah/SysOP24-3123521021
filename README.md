@@ -154,8 +154,8 @@ keterangan:
   Spesifikasi Mainboard
 
 Section Mainboard
-![alt text].https://github.com/selmamajah/SysOP24-3123521021/blob/main/mainboard.PNG
-?raw=true)
+![alt text](https://github.com/selmamajah/SysOP24-3123521021/blob/main/mainboard.PNG?raw=true)
+
 
 Manufacturer: Dell Inc.
 
