@@ -1,3 +1,6 @@
+
+
+
 ![alt text](https://github.com/selmamajah/SysOP24-3123521021/blob/main/Selma%20Diagram%20pertemuan%202.drawio%20(1).png?raw=true)
 
 Berikut Penjelasan dari Diagram yang saya buat:
