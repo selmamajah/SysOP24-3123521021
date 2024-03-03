@@ -186,7 +186,8 @@ Tidak di ketahui
 
 Spesifikasi Memory
 
-![alt text].(https://github.com/selmamajah/SysOP24-3123521021/blob/main/Memory.PNG?raw=true)
+![alt text](https://github.com/selmamajah/SysOP24-3123521021/blob/main/Memory.PNG?raw=true)
+
 
 General
 Type: DDR4
@@ -209,7 +210,7 @@ Command Rate (CR): 1T
 
 Spesifikasi SPD
 
-![alt text].(https://github.com/selmamajah/SysOP24-3123521021/blob/main/spd.PNG?raw=true)
+![alt text](https://github.com/selmamajah/SysOP24-3123521021/blob/main/spd.PNG?raw=true)
 
 Memory Slot Selection:
 SLot #1 - DDR4
@@ -222,19 +223,19 @@ Informasi tersebut memberikan detail terkait produsen modul memori (SK Hynix), n
 
 Spesifikasi Graphics
 
-![alt text].(https://github.com/selmamajah/SysOP24-3123521021/blob/main/graphic.PNG?raw=true)
+![alt text](https://github.com/selmamajah/SysOP24-3123521021/blob/main/graphic.PNG?raw=true)
 
 Name: Intel, HD Graphics 520
 Board Manuf: Dell
 Revision: 7
 
 Tentang Bench
-![alt text].(https://github.com/selmamajah/SysOP24-3123521021/blob/main/Bench.PNG?raw=true)
+![alt text](https://github.com/selmamajah/SysOP24-3123521021/blob/main/Bench.PNG?raw=true)
 
 
 
 Tentang 'About'
-![alt text].(https://github.com/selmamajah/SysOP24-3123521021/blob/main/About.PNG?raw=true)
+![alt text](https://github.com/selmamajah/SysOP24-3123521021/blob/main/About.PNG?raw=true)
 
 
 
