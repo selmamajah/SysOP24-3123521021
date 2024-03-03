@@ -57,6 +57,10 @@ Booting adalah proses dimana sebuah komputer atau perangkat lunak komputer diakt
 
 Setiap jenis booting memiliki tujuan dan kegunaannya sendiri tergantung pada kebutuhan pengguna atau konfigurasi sistem yang diinginkan.
 
+
+
+
+
 MENGINDENTIFIKASI LAPTOP MELALUI APLIKASI CPU-Z
 
 
