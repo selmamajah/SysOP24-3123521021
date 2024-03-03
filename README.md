@@ -151,6 +151,91 @@ keterangan:
 
 - L3 : Transfer datanya paling lambat kerena jauh dari prosesor.
 
+  Spesifikasi Mainboard
+
+Section Mainboard
+![alt text].png?raw=true)
+
+Manufacturer: Dell Inc.
+
+Merupakan pembuat atau pabrik dari motherboard laptop ini.
+
+Model: 0kk5D1 A00
+
+Tipe dari Motherboard pada komputer atau laptop saya.
+
+Bus Specs: PCI - Express 3.0 (8.0 gt/s)
+Chipset: Intel Skylake-U Rev.08
+
+Chipset yang digunakan adalah Intel, sedangkan Skylake-U Rev.08 merupakan tipe dari chipset yang digunakan. Secara fisik, chipset berupa sekumpulan IC kecil atau chips yang dirancang untuk bekerjasama dan memiliki fungsi-fungsi spesifik tertentu.
+
+
+Southbridge: Intel Skylake-Y PCH Rev.21
+
+Section BIOS
+Brand: Dell Inc.
+Version: 1.19.0
+Date: 07/26/2020
+
+Keterangan di atas merupakan tanggal pembuatan BIOS Graphic Interface dan versi laptop yang saya punya. 
+
+Section Graphic Interface
+Tidak di ketahui
+
+
+Spesifikasi Memory
+
+![alt text].png?raw=true)
+
+General
+Type: DDR4
+Menampilkan tipe memori apa yang digunakan pada laptop atau komputer.
+
+Size: 8 GBytes
+Merupakan besaran memori yang terdapat pada laptop ini.
+
+Channel # Single
+Uncore Frequency 897.6 Mhz
+
+Section Timings
+DRAMA Frequency: 1064.5 Mhz
+FSB:DRAMA - 3:32
+CAS# Latency (CL): 15.0 clocks
+Ras# to CAS # Delay (trCD): 15 clocks
+RAS # precharger (tRP): 15 clocks
+Cycle Time(tRFC): 374 clocks
+Command Rate (CR): 1T
+
+Spesifikasi SPD
+
+![alt text].png?raw=true)
+
+Memory Slot Selection:
+SLot #1 - DDR4
+MOdule Manuf: SK Hynix
+DRAMA Manuf: SK Hynix
+Part Number: HMA81GS6AFR8N-UH
+Serial Number: 3382F207
+
+Informasi tersebut memberikan detail terkait produsen modul memori (SK Hynix), nomor model (HMA81GS6AFR8N-UH), dan nomor seri (3382F207) dari modul DDR4 yang dipasang pada slot memori #1 pada sistem komputer.
+
+Spesifikasi Graphics
+
+![alt text].png?raw=true)
+
+Name: Intel, HD Graphics 520
+Board Manuf: Dell
+Revision: 7
+
+Tentang Bench
+
+
+Tentang 'About'
+
+
+
+
+
 
 
 
