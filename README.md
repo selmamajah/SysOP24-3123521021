@@ -1,5 +1,9 @@
 **Tugas System Operasi Ke-2**
 
+
+
+
+
 ![alt text](https://github.com/selmamajah/SysOP24-3123521021/blob/main/Selma%20Diagram%20pertemuan%202.drawio%20(1).png?raw=true)
 
 Berikut Penjelasan dari Diagram yang saya buat:
@@ -58,6 +62,17 @@ Booting adalah proses dimana sebuah komputer atau perangkat lunak komputer diakt
    - Fast boot adalah fitur yang dirancang untuk mempercepat proses booting dengan meminimalkan waktu inisialisasi perangkat keras.
 
 Setiap jenis booting memiliki tujuan dan kegunaannya sendiri tergantung pada kebutuhan pengguna atau konfigurasi sistem yang diinginkan.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
