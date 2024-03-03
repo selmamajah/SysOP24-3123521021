@@ -60,6 +60,7 @@ Setiap jenis booting memiliki tujuan dan kegunaannya sendiri tergantung pada keb
 MENGINDENTIFIKASI LAPTOP MELALUI APLIKASI CPU-Z
 
 Spesifikasi CPU
+
 ![alt text](https://github.com/selmamajah/SysOP24-3123521021/blob/main/Spesifikasi%20CPU%20Selma%20Humayra.PNG?raw=true)
 
 CPU: Tab ini menunjukkan informasi tentang prosesor, seperti nama, kode nama, kecepatan clock, jumlah inti, dan teknologi yang digunakan.
