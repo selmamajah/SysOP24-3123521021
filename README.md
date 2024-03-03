@@ -1,4 +1,4 @@
-![alt text](?raw=true)
+![alt text](ttps://github.com/selmamajah/SysOP24-3123521021/blob/main/Diagram%20booting%20Selma%20Humayra%20Majah%203123521021.drawio?raw=true)
 
 Berikut Penjelasan dari Diagram yang saya buat:
 
