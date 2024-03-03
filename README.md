@@ -60,4 +60,93 @@ Setiap jenis booting memiliki tujuan dan kegunaannya sendiri tergantung pada keb
 MENGINDENTIFIKASI LAPTOP MELALUI APLIKASI CPU-Z
 
 Spesifikasi CPU
-![alt text]https://github.com/selmamajah/SysOP24-3123521021/blob/main/Spesifikasi%20CPU%20Selma%20Humayra.PNG?raw=true)
+![alt text](https://github.com/selmamajah/SysOP24-3123521021/blob/main/Spesifikasi%20CPU%20Selma%20Humayra.PNG?raw=true)
+
+CPU: Tab ini menunjukkan informasi tentang prosesor, seperti nama, kode nama, kecepatan clock, jumlah inti, dan teknologi yang digunakan.
+
+*Section Processor*
+
+Name: Intel Core I5 6300U
+
+Menampilkan nama dari processor yang digunakan pada laptop atau komputer.
+
+Code Name: Skylake-U/Y
+
+Menampilkan Code dari processor yang dipakai komputer atau laptop.
+
+Max TDP:  15.0 Watt
+
+Menyatakan power consumption, Artinya laptop atau komputer ini membutuhkan daya 15.0 Watt saat bekerja.
+
+Package : Socket 1356 FCBGA
+
+Menampilkan bahwa jenis socket pada processor laptop ini adalah Socket 1356 FCBGA.
+
+Technology : 14 nm
+
+Menampilkan Seberapa besar komponen yang digunakan.
+
+Core VID : 0.641 V
+
+Menampilkan tegangan listrik yang digunakan sekitar 0.641 Volt.
+
+Spesification : Itel Core i5-6300U CPU @ 2.40 Ghz
+
+Menampilkan Spesifikasi dari komputer atau laptop yang dipakai.
+
+Family: 6
+
+Menampikan generasi keberapa processor yang di gunakan.
+
+Ext Family : 6
+
+Menampilkan total family (keluarga) processor yang ada dalam komputer atau laptop.
+
+Intruction : MMX, SSE, SSE2, SSE3, SSSE3, SSE4.2, EM64T, VT-X, AES, AVX, AVX2, FMA3, TSX
+
+Menampilkan instruksi yang didukung dalam processor yang dipakai.
+
+A. MMX : berhubungan dengan Integrasi VGA (yang mangatur tentang visual berupa gambar, grafik, dll). 
+B. SSE : jenis – jenis instruksi algoritma atau perhitungan yang dapat dipahami processor. 
+C. EM64T : teknologi yang meningkatkan platform server dan stasiun kerja dengan keterlayakan alamat 64 bit dan instruksi terkait. 
+D. VT-x : dapat mengizinkan komputer untuk membuat mesin virtual. 
+
+E. TSX:TSX menyediakan dukungan untuk transaksi memori, yang memungkinkan beberapa operasi memori untuk dijalankan sebagai satu kesatuan transaksi atomik. Ini dapat meningkatkan kinerja aplikasi yang menggunakan operasi memori bersamaan pada tingkat tinggi.
+
+Section Clocks (Core #0)
+Core Speed : 798.63 MHz
+
+Mengetahui kecepatan satu core satuan dalam melakukan suatu perintah.
+
+Multiplier: x 8.0 (4.0 - 30.0)
+
+Mengatur lebar jalur transfer yang tersedia. Pengkali. Apabila processor banyak melakukan proses pada computer, maka multiplier meningkat. Sedangkan apabila processor sedikit melakukan proses pada computer, maka multiplier menurun dalam keadaan stabil.
+
+Bus Speed: 99.83 MHz
+
+Menampilkan kecepatan transfer data dan instruksi atau kecepatan BUS. Jumlah alur yang mampu dilaksanakan oleh sebuah pemproses dalam masa second. Satuan waktu ini diukur dalam unit juta arahan second yang disebut juga sebagai megahertz (MHz) atau juta kitaran second.
+
+Cache
+
+Cache memory adalah memory berukuran kecil berkecepatan tinggi yang berfungsi untuk menyimpan sementara instruksi dan/atau data (informasi) yang diperlukan oleh prosesor.
+
+L1 Data: 2 x 32 KBytes 8-way
+L1 inst.: 2 x 32 Kbytes 8-way
+Level 2 : 2x 256 KBytes 4-way
+Level 3: 3 Mbytes 12-way
+
+keterangan:
+
+- L1 : Trensfer data ke prosesor paling cepat karena letaknya paling dekat dengan prosesor.
+
+- L2 : Transfer data ke proseror lebih lambat dari L1 karena posisinya lebih jauh dari prosesor.
+
+- L3 : Transfer datanya paling lambat kerena jauh dari prosesor.
+
+
+
+
+
+
+
+
