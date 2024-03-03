@@ -1,5 +1,4 @@
-
-
+**Tugas System Operasi Ke-2**
 
 ![alt text](https://github.com/selmamajah/SysOP24-3123521021/blob/main/Selma%20Diagram%20pertemuan%202.drawio%20(1).png?raw=true)
 
@@ -64,7 +63,7 @@ Setiap jenis booting memiliki tujuan dan kegunaannya sendiri tergantung pada keb
 
 
 
-MENGINDENTIFIKASI LAPTOP MELALUI APLIKASI CPU-Z
+**MENGINDENTIFIKASI LAPTOP MELALUI APLIKASI CPU-Z**
 
 
 
@@ -73,9 +72,10 @@ MENGINDENTIFIKASI LAPTOP MELALUI APLIKASI CPU-Z
 
 ![alt text](https://github.com/selmamajah/SysOP24-3123521021/blob/main/Spesifikasi%20CPU%20Selma%20Humayra.PNG?raw=true)
 
+
 CPU: Tab ini menunjukkan informasi tentang prosesor, seperti nama, kode nama, kecepatan clock, jumlah inti, dan teknologi yang digunakan.
 
-*Section Processor*
+**Section Processor**
 
 Name: Intel Core I5 6300U
 
@@ -154,9 +154,11 @@ keterangan:
 
 - L3 : Transfer datanya paling lambat kerena jauh dari prosesor.
 
-  Spesifikasi Mainboard
+  **Spesifikasi Mainboard**
 
-Section Mainboard
+**Section Mainboard**
+
+
 ![alt text](https://github.com/selmamajah/SysOP24-3123521021/blob/main/mainboard.PNG?raw=true)
 
 
@@ -187,9 +189,12 @@ Section Graphic Interface
 Tidak di ketahui
 
 
-Spesifikasi Memory
+**Spesifikasi Memory**
+
 
 ![alt text](https://github.com/selmamajah/SysOP24-3123521021/blob/main/Memory.PNG?raw=true)
+
+
 
 
 General
@@ -211,9 +216,12 @@ RAS # precharger (tRP): 15 clocks
 Cycle Time(tRFC): 374 clocks
 Command Rate (CR): 1T
 
-Spesifikasi SPD
+**Spesifikasi SPD**
+
 
 ![alt text](https://github.com/selmamajah/SysOP24-3123521021/blob/main/spd.PNG?raw=true)
+
+
 
 Memory Slot Selection:
 SLot #1 - DDR4
@@ -224,20 +232,29 @@ Serial Number: 3382F207
 
 Informasi tersebut memberikan detail terkait produsen modul memori (SK Hynix), nomor model (HMA81GS6AFR8N-UH), dan nomor seri (3382F207) dari modul DDR4 yang dipasang pada slot memori #1 pada sistem komputer.
 
-Spesifikasi Graphics
+
+**Spesifikasi Graphics**
+
+
 
 ![alt text](https://github.com/selmamajah/SysOP24-3123521021/blob/main/graphic.PNG?raw=true)
+
+
 
 Name: Intel, HD Graphics 520
 Board Manuf: Dell
 Revision: 7
 
-Tentang Bench
+**Tentang Bench milik saya**
+
+
 ![alt text](https://github.com/selmamajah/SysOP24-3123521021/blob/main/Bench.PNG?raw=true)
 
 
 
-Tentang 'About'
+**Tentang 'About'**
+
+
 ![alt text](https://github.com/selmamajah/SysOP24-3123521021/blob/main/About.PNG?raw=true)
 
 
