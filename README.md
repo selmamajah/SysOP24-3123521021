@@ -56,3 +56,8 @@ Booting adalah proses dimana sebuah komputer atau perangkat lunak komputer diakt
    - Fast boot adalah fitur yang dirancang untuk mempercepat proses booting dengan meminimalkan waktu inisialisasi perangkat keras.
 
 Setiap jenis booting memiliki tujuan dan kegunaannya sendiri tergantung pada kebutuhan pengguna atau konfigurasi sistem yang diinginkan.
+
+MENGINDENTIFIKASI LAPTOP MELALUI APLIKASI CPU-Z
+
+Spesifikasi CPU
+![alt text]https://github.com/selmamajah/SysOP24-3123521021/blob/main/Spesifikasi%20CPU%20Selma%20Humayra.PNG?raw=true)
