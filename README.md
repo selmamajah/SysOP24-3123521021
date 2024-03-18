@@ -23,7 +23,7 @@ e.	Fungsi Sistem Operasi sebagai akuntan, yang menjaga pewaktuan CPU tetap berad
 
 f.	Fungsi Sistem Operasi sebagai server, yang memberikan pelayanan yang diperlukan pengguna, seperti restrukturisasi direktori file.
 
-5.	Jelaskan secara singkat evolusi sistem operasi!
+4.	Jelaskan secara singkat evolusi sistem operasi!
 
 a.	Generasi Awal (1945-1955)
 Generasi pertama merupakan awal perkembangan sistem komputasi elektronik sebagai pengganti sistem komputasi mekanik. Hal itu disebabkan kecepatan manusia untuk menghitung terbatas. Selain itu manusia sangat mudah untuk membuat kecerobohan, kekeliruan bahkan kesalahan. Pada generasi ini belum ada sistem operasi, maka sistem komputer diberi instruksi yang harus dikerjakan secara langsung oleh pengguna.
@@ -37,7 +37,7 @@ Sistem operasi pada generasi ini dikembangkan untuk melayani banyak pengguna, ja
 d.	Generasi Keempat (1979-Sekarang)
 Generasi keempat ditandai dengan munculnya komputer pribadi dan workstation. Miniaturisasi sirkuit elektronik berlanjut dengan penggunaan teknologi Very Large Scale Integration (VLSI), yang memungkinkan pengembangan komputer desktop dengan kemampuan yang lebih besar. Sistem operasi seperti DOS Microsoft untuk komputer pribadi dan UNIX untuk workstation mulai mendominasi. Komputer desktop ini sering terhubung dalam sistem jaringan atau terdistribusi, dengan kemampuan login dari jarak jauh dan transfer informasi antar mesin. Mesin dalam sistem terdistribusi dianggap sebagai sistem prosesor tunggal virtual bagi pengguna, dengan sistem operasi pusat mengontrol lokasi dan sistem file yang mengelola program tertentu.
 
-4.	Apa saja elemen kunci dari sistem operasi?
+5.	Apa saja elemen kunci dari sistem operasi?
 
 Elemen kunci dari sistem operasi meliputi:
 
@@ -76,15 +76,15 @@ e. Hanya Dimiliki oleh Kalangan Terbatas: keterbatasan dalam kepemilikan kompute
 
 Komputer generasi kedua menggunakan transistor sebagai pengganti tabung hampa (vacuum tube) pada komputer generasi pertama. Selain itu, pada komputer generasi kedua juga ditemukan memori inti-magnetikyang mampu mengembangkan komputer dengan lebih cepat. Beberapa penemuan baru pada komputer generasi kedua antara lain:
 
--Penggunaan Transistor: Transistor digunakan sebagai pengganti tabung hampa pada komputer generasi pertama. Transistor lebih kecil, lebih andal, dan lebih hemat energi daripada tabung hampa.
+a, Penggunaan Transistor: Transistor digunakan sebagai pengganti tabung hampa pada komputer generasi pertama. Transistor lebih kecil, lebih andal, dan lebih hemat energi daripada tabung hampa.
 
--Bahasa Pemrograman: Pada komputer generasi kedua, bahasa pemrograman tingkat tinggi seperti COBOL, ALGOL, dan FORTRAN mulai digunakan.
+b. Bahasa Pemrograman: Pada komputer generasi kedua, bahasa pemrograman tingkat tinggi seperti COBOL, ALGOL, dan FORTRAN mulai digunakan.
 
--Kapasitas Penyimpanan: Kapasitas penyimpanan pada komputer generasi kedua lebih luas berkat penggunaan teknologi magnetic core storage (inti magnetik).
+c. Kapasitas Penyimpanan: Kapasitas penyimpanan pada komputer generasi kedua lebih luas berkat penggunaan teknologi magnetic core storage (inti magnetik).
 
--Efisiensi Energi: Daya listrik yang dibutuhkan oleh komputer generasi kedua lebih kecil dari komputer generasi pertama.
+d. Efisiensi Energi: Daya listrik yang dibutuhkan oleh komputer generasi kedua lebih kecil dari komputer generasi pertama.
 
--Orientasi Aplikasi: Komputer generasi kedua berorientasi pada aplikasi bisnis dan teknik, berbeda dengan komputer generasi pertama yang hanya fokus pada aplikasi bisnis saja.
+e. Orientasi Aplikasi: Komputer generasi kedua berorientasi pada aplikasi bisnis dan teknik, berbeda dengan komputer generasi pertama yang hanya fokus pada aplikasi bisnis saja.
 
 10. Deskripsikan apa itu IC atau sirkuit terpadu!
 
@@ -104,9 +104,9 @@ Komputer generasi kelima adalah masa sekarang dan masa yang akan datang. Pada ge
 
 14. Apa perbedaan antara perangkat keras dan perangkat lunak?
 
--Perangkat Keras (Hardware): Merupakan bagian fisik komputer yang dapat dilihat dan disentuh. Contohnya meliputi CPU, RAM, hardisk, keyboard, mouse, monitor, dan printer. Menyediakan fondasi fisik untuk komputer beroperasi.
+a. Perangkat Keras (Hardware): Merupakan bagian fisik komputer yang dapat dilihat dan disentuh. Contohnya meliputi CPU, RAM, hardisk, keyboard, mouse, monitor, dan printer. Menyediakan fondasi fisik untuk komputer beroperasi.
 
--Perangkat Lunak (Software): Merupakan serangkaian instruksi atau program yang digunakan untuk mengontrol dan mengoperasikan perangkat keras. Contohnya meliputi sistem operasi (Windows, macOS, Linux) dan aplikasi (Microsoft Word, Google Chrome). Memberikan instruksi kepada perangkat keras tentang apa yang harus dilakukan.
+b. Perangkat Lunak (Software): Merupakan serangkaian instruksi atau program yang digunakan untuk mengontrol dan mengoperasikan perangkat keras. Contohnya meliputi sistem operasi (Windows, macOS, Linux) dan aplikasi (Microsoft Word, Google Chrome). Memberikan instruksi kepada perangkat keras tentang apa yang harus dilakukan.
 Perangkat keras dan perangkat lunak saling melengkapi dan bekerja bersama untuk menciptakan sistem komputer yang kompleks. Perangkat keras menyediakan fondasi fisik, sementara perangkat lunak memberikan instruksi dan fungsionalitas pada komputer. Analogi yang tepat adalah hubungan antara tubuh (perangkat keras) dan otak (perangkat lunak) manusia; tubuh menyediakan struktur dan kemampuan untuk bergerak, sedangkan otak mengendalikan tindakan.
 
 15. Apa perbedaan antara perangkat lunak sistem dan perangkat lunak aplikasi?
