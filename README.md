@@ -407,14 +407,37 @@ Revision: 7
 
 
 
+_Tugas Pertemuan Kedua Selesai_
 
 
 
-
-
-**Tugas Pertemuan Ketiga**
+**Tugas Sistem Operasi Pertemuan Ketiga**
 ![alt text](https://github.com/selmamajah/SysOP24-3123521021/blob/main/Selma%20Mindmapping%20tugas%20minggu%20ketiga.png?raw=true)
 
+
+Perbedaan antara BIOS dan EFI (Extensible Firmware Interface) terletak pada arsitektur dan desain, bootloader, antarmuka pengguna, dukungan perangkat keras, dan kompatibilitas sistem operasi.
+
+**Arsitektur dan Desain:**
+- BIOS menggunakan arsitektur firmware yang tradisional dan terkadang terbatas dalam kemampuan dan fleksibilitasnya. Ini menggunakan MBR (Master Boot Record) untuk menyimpan informasi partisi.
+- EFI dirancang dengan arsitektur yang lebih modern dan modular, menggunakan GPT (GUID Partition Table) untuk partisi. Ini memungkinkan dukungan untuk partisi yang lebih besar dan lebih banyak.
+
+**Bootloader:**
+- BIOS menggunakan bootloader yang terintegrasi dengan firmware dan terbatas pada bootloaders seperti GRUB atau LILO.
+- EFI dapat menggunakan bootloader terpisah dari firmware dan mendukung bootloader seperti GRUB, rEFInd, atau Microsoft Boot Manager.
+
+**Antarmuka Pengguna:**
+- BIOS umumnya memiliki antarmuka pengguna sederhana dan terbatas, sering kali hanya dapat diakses melalui tombol khusus saat boot.
+- EFI menyediakan antarmuka pengguna yang lebih canggih, sering kali dengan dukungan untuk mouse dan grafis. EFI Shell memungkinkan interaksi yang lebih kompleks.
+
+**Dukungan Perangkat Keras:**
+- BIOS terbatas dalam mendukung perangkat keras modern dan fitur canggih seperti booting dari disk berkapasitas besar atau keamanan boot yang tinggi.
+- EFI lebih fleksibel dan mendukung perangkat keras modern dengan lebih baik, seperti boot dari disk berkapasitas besar dan keamanan boot berbasis UEFI Secure Boot.
+
+**Kompatibilitas Sistem Operasi:**
+- BIOS umumnya lebih terbatas dalam mendukung sistem operasi modern, terutama sistem operasi 64-bit.
+- EFI lebih mendukung sistem operasi modern dan dapat bekerja dengan baik dengan sistem operasi 32-bit dan 64-bit.
+
+Secara keseluruhan, EFI dianggap lebih canggih dan fleksibel daripada BIOS, dan banyak sistem modern mengadopsi EFI sebagai pengganti BIOS.
 
 
 
