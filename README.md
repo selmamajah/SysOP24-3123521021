@@ -572,8 +572,6 @@ B.   **apt install git**
 Analisis: **~# apt install git** apt install git di Debian adalah perintah untuk menginstal perangkat lunak Git menggunakan manajer paket APT (Advanced Package Tool). Git adalah sistem kontrol versi yang digunakan oleh pengembang perangkat lunak untuk mengelola kode sumber proyek mereka. Ini memungkinkan pengembang untuk melacak perubahan dalam kode, bekerja sama dengan tim, dan mengelola versi berbagai perangkat lunak.
 
 
-![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/cd2b2fdf-b7be-4176-8b42-48a2700f4c1e)
-
 C. apt install debian package
 ![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/87d9d566-5985-412e-825f-0c39113ed4a6)
 
@@ -795,6 +793,11 @@ Analisis: sebelumnya ada file bernama output yang berisi kata hello, nah, saya m
 
 ![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/f1f6746f-4c00-4669-9beb-8250a8887657)
 
+Analisis: 
+
+Tanda < yang diikuti oleh nama file "output" mengindikasikan bahwa input untuk perintah cat diambil dari file "output".
+Dengan demikian, cat membaca isi dari file "output" dan menampilkannya di terminal.
+
 5. $ cat < output > out
 $ cat out
 $ cat < output >> out
@@ -806,6 +809,24 @@ $ cat < out >> out (Proses tidak berhenti)
 $ cat out
 
 ![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/c6f70666-454e-4514-8fb4-a8e921d7e0b4)
+
+Analisis: $ cat < output > out: Perintah ini mengarahkan isi dari file "output" ke perintah `cat` dan kemudian menulisnya ke dalam file "out".
+
+$ cat out: Perintah ini menampilkan isi dari file "out". Setelah langkah pertama, "out" sekarang berisi konten yang sama dengan file "output".
+
+`$ cat < output >> out: Perintah ini mengarahkan kembali isi dari file "output" ke perintah `cat`, dan kemudian menambahkannya ke dalam file "out" yang sudah ada sebelumnya. Jadi, konten dari "output" ditambahkan ke akhir konten yang sudah ada dalam "out".
+
+$ cat out: Perintah ini kembali menampilkan isi dari file "out". Sekarang, "out" berisi dua kali lipat konten yang sama dari "output", karena langkah sebelumnya menambahkan konten baru ke dalamnya.
+
+$ cat < output > output: Perintah ini mengarahkan isi dari file "output" ke dalam file "output" itu sendiri. Ini akan menghasilkan file kosong, karena saat Anda menulis isi "output" ke "output", file "output" akan ditimpa dan menjadi kosong.
+
+$ cat output: Perintah ini menampilkan isi dari file "output". Karena langkah sebelumnya telah menimpa isi "output" dengan file kosong, maka tidak akan ada konten yang ditampilkan.
+
+$ cat < out >> out: Perintah ini mencoba untuk mengarahkan kembali isi dari file "out" ke perintah `cat`, kemudian menambahkannya ke dalam file "out" itu sendiri. Namun, langkah ini memicu sebuah loop tak terbatas, karena setiap kali Anda menambahkan isi "out" ke "out", ukurannya akan terus bertambah dan menyebabkan loop tak terbatas.
+
+Pada akhirnya, saya memutuskan proses dengan menekan `Ctrl-c`. Setelah itu, saya ingin menganalisis konten dari file "out". Namun, karena langkah terakhir menyebabkan loop tak terbatas, konten "out" mungkin sangat besar dan sulit dianalisis.
+
+---------
 
 **Percobaan 4: Filter**
 
