@@ -776,6 +776,14 @@ $ cat output
 
 ![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/0ba794e9-5cb6-43c2-b733-8b1eb167d6b6)
 
+Analisis: 
+
+$ echo hello: Perintah ini akan menampilkan teks "hello" ke terminal.
+
+$ echo hello > output: Perintah ini akan mengarahkan output dari perintah echo hello ke dalam file bernama "output". Dengan demikian, teks "hello" akan dituliskan ke dalam file "output" dan tidak akan ditampilkan di terminal.
+
+$ cat output: Perintah ini digunakan untuk menampilkan isi dari file "output". Oleh karena itu, ketika saya menjalankan perintah ini, teks "hello" yang sebelumnya telah dituliskan ke dalam file "output" akan ditampilkan di terminal.
+
 3.  $ echo bye >> output
 $ cat output
 
