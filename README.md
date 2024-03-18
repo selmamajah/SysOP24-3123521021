@@ -1,3 +1,5 @@
+SEMUA TUGAS DARI PERTEMUAN PERTAMA SAMPAI TERAKHIR SAYA TARUH JADI SATU DISINI.
+
 **Tugas Sistem Operasi Pertemuan Pertama**
 
 1.	Apa hubungan antara perangkat lunak aplikasi dan sistem operasi?
