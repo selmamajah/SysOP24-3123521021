@@ -789,6 +789,8 @@ $ cat output
 
 ![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/75d0b411-8899-47d4-9a34-35d3df7a6c8a)
 
+Analisis: sebelumnya ada file bernama output yang berisi kata hello, nah, saya mau memasukkan kata baru yaitu bye di file output tampa menghapus kata hello itu dengan memakai tanda >> alhasil tanda tersebut membuat kalimat tambahannya berada di bawah kalimat hello.
+
 4.  $ cat < output
 
 ![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/f1f6746f-4c00-4669-9beb-8250a8887657)
