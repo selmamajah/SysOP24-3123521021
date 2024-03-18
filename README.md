@@ -585,3 +585,301 @@ Analisis: Dengan menggunakan perintah ini, saya dapat dengan mudah mengelola per
 
 _Tugas 4_
 
+**TUGAS PENDAHULUAN:**
+
+Jawablah pertanyaan-pertanyaan di bawah ini :
+
+1. Apa yang dimaksud redirection?
+
+_jawab_
+Redirection adalah fitur di shell Linux yang memungkinkan kita untuk mengarahkan input dan output dari suatu perintah ke file atau perangkat lain.
+
+Berikut merupakan jenis-jenis Redirection:
+Input redirection: Mengarahkan input dari suatu perintah ke file atau perangkat lain. Contohnya: command < file_input
+Output redirection: Mengarahkan output dari suatu perintah ke file atau perangkat lain. Contohnya: command > file_output
+Append redirection: Menambahkan output dari suatu perintah ke file yang sudah ada. Contohnya: command >> file_output
+
+2. Apa yang dimaksud pipeline?
+
+_jawab_
+Pipeline adalah fitur di shell Linux yang memungkinkan Anda untuk menggabungkan beberapa perintah sehingga output dari satu perintah menjadi input untuk perintah berikutnya. Contoh: command1 | command2 | command3
+
+3. Apa yang dimaksud perintah di bawah ini : echo, cat, more, sort, grep, wc, cut, uniq
+
+_jawab_
+echo: Mencetak teks ke layar.
+cat: Menampilkan isi file ke layar.
+more: Menampilkan file ke layar secara per halaman.
+sort: Mengurutkan baris-baris file berdasarkan kolom tertentu.
+grep: Mencari baris-baris file yang mengandung pola tertentu.
+wc: Menghitung jumlah baris, kata, dan karakter dalam file.
+cut: Memotong kolom tertentu dari baris-baris file.
+uniq: Menghilangkan baris-baris duplikat dalam file.
+Contoh Penggunaan: 
+Menampilkan isi file data.txt dan menghitung jumlah barisnya: cat data.txt | wc -l
+Mencari baris-baris dalam file data.txt yang mengandung kata "Indonesia" dan mengurutkannya berdasarkan kolom nama: cat data.txt | grep "Indonesia" | sort -k2
+Memotong kolom pertama dan kedua dari file data.txt dan menampilkannya secara per halaman: cat data.txt | cut -d, -f1,2 | more
+
+**Percobaan**
+
+1. $ps
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/60b6bc50-310b-41d5-b7e1-1f4696c09249)
+
+Analisis: ps: Menampilkan daftar proses yang dijalankan oleh pengguna saat ini pada terminal.
+
+
+2. . $ cat
+ hallo, apa khabar
+ hallo, apa khabar
+ exit dengan ^d
+ exit dengan ^d
+ [Ctrl-d]
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/7f594497-47b5-417f-8607-4b16f5d97fba)
+
+Analisis: Perintah "cat" (singkatan dari "concatenate") pada sistem Debian  digunakan untuk menggabungkan dan menampilkan konten dari satu atau beberapa file teks secara berurutan. Meskipun namanya adalah "concatenate", perintah "cat" juga sering digunakan untuk menampilkan isi tunggal file.
+
+3.  $ mkdir mydir
+$ mkdir mydir  (Terdapat pesan error)
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/a2b11fce-805a-4d3a-99d0-d2a778101b91)
+
+Analisis: Perintah mkdir digunakan di Debian untuk membuat direktori (penyimpanan) baru. 
+
+
+**Percobaan 2 : Pembelokan (redirection)**
+
+1.   $ cat 1> myfile.txt
+ Ini adalah teks yang saya simpan ke file myfile.txt
+
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/34b59fd1-bacf-494b-aee7-88a4b0b5ccc5)
+
+Analisis: Saya membelokan output cat yaitu standart inputan dari keyboard manual saya ke file bernama "myfile.txt" nah, fungsi simbol > adalah membelokan dan menyimpan output saya di file tersebut.  
+
+2.   $ cat 0< myfile.txt
+ $ cat myfile.txt
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/0d049676-9a1f-464d-9505-2fbb886bca56)
+
+Analisis: cat 0 < myfile.txt ini merupakan pembelokan output sedangkan cat myfile.txt adalah untuk menampilkan isi dari file myfile.txt ke dalam terminal. 
+
+3.   $ mkdir mydir (Terdapat pesan error)
+ $ mkdir mydir 2> myerror.txt
+ $ cat myerror.txt
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/79aa4086-902a-49fa-8ec3-3cae0a040daf)
+
+Analisis:
+
+mkdir merupakan singkatan dari _make directory_ dan mydir merupakan nama  direktori, berarti disini kita akan membuat direction baru.  _(Terdapat pesan error)_ merupakan pertanda terjadinya kesalahan. Dengan menggunakan 2> kita mengarahkan output kesalahan ke file myerror.txt.
+
+cat myerror.txt merupakan perintah untuk membaca file myerror dan menampilkannya di terminal.
+
+4. $ ls filebaru (Terdapat pesan error)
+ $ ls filebaru 2> out.txt
+ $ cat out.txt
+ $ ls filebaru 2> out.txt 2>&
+ $ cat out.txt
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/ac2167fe-377f-4f7b-8480-6ce1e629e72e)
+
+Analisis: perintah pertama, $ ls filebaru, mencoba untuk menampilkan isi dari direktori filebaru. terdapat pesan error, itu mungkin karena direktori dengan nama tersebut tidak ada di debian saya. $ls file baru 2> out.text merupakan pembelokan output filebaru 2 ke dalam out.txt untuk di tampilkan ke dalam terminal. 
+
+$ cat out.txt merupakan perintah membaca isi out.txt untuk di tampilkan ke terminal. 
+
+ $ ls filebaru 2> out.txt 2>&1 pada perintah ini akan lansung mendapatkan perintah error karena melihat direktori yang tidak tersedia, pada perintah ini juga tidak akan membuat file karena dilakukan pembelokan dan menyebabkan perintah sama seperti perintah melihat file yang tidak tersedia.
+
+5. $ echo “mencoba menulis file” 1> baru
+$ cat filebaru 2> baru 1>&
+$ cat baru
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/c8ab8d8a-47b9-4180-addb-0eb9d0edfa73)
+
+Analisis:
+$ echo “mencoba menulis file” 1> baru: Perintah ini mencoba menuliskan teks "mencoba menulis file" ke dalam file bernama baru. Namun, karena kesalahan penulisan, karakter kutip yang digunakan bukanlah karakter yang valid (yang seharusnya adalah ' atau "), sehingga mungkin menyebabkan masalah saat dieksekusi. Selain itu, penggunaan 1> tidak diperlukan dalam konteks ini karena echo secara default menulis ke stdout.
+
+$ cat filebaru 2> baru 1>&: Perintah ini mencoba menampilkan isi dari file filebaru, mengarahkan output kesalahan ke file baru, dan kemudian mengarahkan output standar (stdout) ke suatu tempat yang tidak jelas karena tanda & setelah 1>& tidak diikuti oleh nomor file descriptor atau tujuan yang jelas.
+
+$ cat baru: Ini mencoba menampilkan isi dari file baru.
+
+6.  $ echo “kata pertama” > surat
+$ echo “kata kedua” >> surat
+$ echo “kata ketiga” >> surat
+$ cat surat
+$ echo “kata keempat” > surat
+$ cat surat
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/c7f1d18b-2974-4326-9420-cad29ea0a641)
+
+Analisis: $ echo “kata pertama” > surat: Perintah ini menulis teks "kata pertama" ke dalam file bernama surat. Karena penggunaan operator > memang untuk membelokkan output ke suatu tempat.
+
+$ echo “kata kedua” >> surat: Perintah ini menambahkan teks "kata kedua" ke dalam file surat tanpa menghapus atau mengganti konten yang ada. Ini dilakukan dengan menggunakan operator >>, yang berarti "menambahkan ke akhir file". Jadi, teks "kata kedua" akan ditambahkan sebagai baris kedua di file surat.
+
+$ echo “kata ketiga” >> surat: Perintah ini juga menambahkan teks "kata ketiga" ke dalam file surat sebagai baris baru ketiga, tanpa menghapus atau mengganti konten yang sudah ada sebelumnya.
+
+$ cat surat: Ini akan menampilkan isi dari file surat di terminal.
+
+
+7. $ cat <<++
+Hallo, apa kabar?
+Baik-baik saja?
+Ok!
+++
+$ cat <<%%%
+Hallo, apa kabar?
+Baik-baik saja?
+Ok!
+%%%
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/d809f3dd-98e4-43d8-b904-d704f9640aab)
+
+Analisis: Perintah cat <<+ (atau cat <<%%%) adalah contoh dari penggunaan heredoc di shell. Heredoc adalah cara untuk menetapkan teks multibaris ke dalam variabel atau langsung menampilkan teks tersebut di terminal.
+
+
+
+8.  $ cat myfile.txt – surat
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/d81a2b39-efee-4f1f-9a84-0db69e904eb7)
+Analisis: 
+
+Perintah cat myfile.txt - surat dalam terminal Linux (termasuk Debian) merupakan contoh penggunaan perintah cat untuk menggabungkan isi dari dua atau lebih file ke dalam satu output yang ditampilkan di terminal.
+
+
+**Percobaan 3 : Pipa (pipeline)**
+
+1. $ who
+$ who | sort
+$ who | sort –r
+$ who > tmp
+$ sort tmp
+$ rm tmp
+$ ls –l /etc | more
+$ ls –l /etc | sort | more
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/91e45b55-d0de-4eae-88bc-af39ebefa08c)
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/e13e8806-432a-44e4-80a5-b4c524a22cee)
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/8fa5da86-3151-44f6-ad81-626ace5090a0)
+
+2.  $ echo hello
+$ echo hello > output
+$ cat output
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/0ba794e9-5cb6-43c2-b733-8b1eb167d6b6)
+
+3.  $ echo bye >> output
+$ cat output
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/75d0b411-8899-47d4-9a34-35d3df7a6c8a)
+
+4.  $ cat < output
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/f1f6746f-4c00-4669-9beb-8250a8887657)
+
+5. $ cat < output > out
+$ cat out
+$ cat < output >> out
+$ cat out
+$ cat < output > output
+$ cat output
+$ cat < out >> out (Proses tidak berhenti)
+[Ctrl-c]
+$ cat out
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/c6f70666-454e-4514-8fb4-a8e921d7e0b4)
+
+**Percobaan 4: Filter**
+
+1.  $ w –h | grep <user>
+ $ grep <user> /etc/passwd
+ $ ls /etc | wc
+ $ ls /etc | wc –l
+ $ cat > kelas1.txt
+ Badu
+ Zulkifli
+ Yulizir
+ Yudi
+ Ade
+ [Ctrl-d]
+ $ cat > kelas2.txt
+ Budi
+ Gama
+ Asep
+ Muchlis
+ [Ctrl-d]
+ $ cat kelas1.txt kelas2.txt | sort
+ $ cat kelas1.txt kelas2.txt > kelas.txt
+ $ cat kelas.txt | sort | uniq
+
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/9c68dcb6-35b0-45e3-b691-ba4ec247d9b9)
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/dac9e10c-261d-498b-9fcf-6b66fc05406c)
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/58fdaa18-8756-4cf1-8097-d8cf44bf5895)
+
+**Latihan**
+
+1.  Lihat daftar secara lengkap pada direktori aktif, belokkan tampilan standard output ke file baru.
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/527fedb3-a585-4520-bac0-c781722f6454)
+
+2. Lihat daftar secara lengkap pada direktori /etc/passwd, belokkan tampilan standard output ke file baru tanpa menghapus file baru sebelumnya.
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/bf0301f3-ac7e-464a-ae85-06c77bb762fa)
+
+3. Urutkan file baru dengan cara membelokkan standard input.
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/7707710b-f39c-43bd-819d-9dfc03276dc2)
+
+
+4. Urutkan file baru dengan cara membelokkan standard input dan standard output ke file baru.urut.
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/e46062ec-07b6-4058-b712-3f8c3aa4e5a3)
+
+5. Buatlah direktori latihan 2 sebanyak 2 kali dan belokkan standard error ke file rmdirerror.txt.
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/734654e2-d5bc-4247-bae0-18379752889c)
+
+6. Urutkan kalimat berikut :
+
+Jakarta
+Bandung
+Surabaya
+Padang
+Palembang
+Lampung
+
+Dengan menggunakan notasi here document (<@@@ ...@@@)
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/7d4fabd9-0213-4ff3-95ad-e26a33a50384)
+
+7. Hitung jumlah baris, kata dan karakter dari file baru.urut dengan menggunakan filter dan tambahkan data tersebut ke file baru.
+
+8. Gunakan perintah di bawah ini dan perhatikan hasilnya.
+ $ cat > hello.txt
+ dog cat
+ cat duck
+ dog chicken
+ chicken duck
+ chicken cat
+ dog duck
+ [Ctrl-d]
+ $ cat hello.txt | sort | uniq
+ $ cat hello.txt | grep “dog” | grep –v “cat”
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/c4414c6c-e425-4889-9a25-c8bc28504b0e)
+
+
+_Tugas tiga dan tugas empat di pertemuan keempat selesai_
+
+
+
+
+
+
+
+
