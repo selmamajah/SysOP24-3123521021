@@ -62,6 +62,7 @@ Program tersimpan pertama kali diperkenalkan oleh John von Neumann pada tahun 19
 8.	Sebutkan kekurangan komputer generasi pertama dibandingkan komputer generasi kedua!
 
 Kekurangan Komputer Generasi Pertama dibandingkan dengan Komputer Generasi Kedua:
+
 a. Ukuran Fisik: komputer generasi pertama memiliki dimensi yang sangat besar, memerlukan ruang yang luas, seukuran kamar tidur, tidak efisien dalam tata letak dan tidak cocok untuk penggunaan pribadi.
 
 b. Konsumsi Listrik: komputer generasi pertama memerlukan daya listrik yang sangat besar untuk dioperasikan, menyebabkan konsumsi energi yang tinggi.
