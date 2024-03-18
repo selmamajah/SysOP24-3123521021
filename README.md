@@ -46,9 +46,11 @@ e.	Keamanan sistem komputer: Sistem operasi juga bertanggung jawab menjaga keama
 Generasi komputer adalah istilah yang digunakan untuk menggambarkan perkembangan teknologi komputer dari waktu ke waktu. Perkembangan ini dibagi menjadi beberapa generasi, dimulai dari generasi pertama hingga generasi kelima. Setiap generasi memiliki ciri khas dan teknologi yang berbeda-beda. Generasi pertama komputer menggunakan tabung vakum untuk menyimpan data dan ukurannya memakan satu ruangan. Generasi kedua dimulai ketika transistor menggantikan tabung vakum. Generasi ketiga ditandai dengan pengembangan integrated circuit, sedangkan generasi keempat memiliki terobosan berupa mikroprosesor yang dapat menyatukan ribuan IC ke dalam sebuah keping. Generasi kelima saat ini ditandai dengan munculnya teknologi AI dan quantum computing. Setiap generasi komputer memiliki peran penting dalam perkembangan teknologi komputer yang kita kenal saat ini.
 
 7.	Siapa yang memberikan gambaran tentang program tersimpan dan pada tahun berapa? Siapa yang memberikan struktur dasar komputer?
+
 Program tersimpan pertama kali diperkenalkan oleh John von Neumann pada tahun 1946. John von Neumann juga memberikan struktur dasar komputer yang meliputi unit masukan (Input Unit), unit kontrol (Control Unit), unit logika dan aritmatika (Arithmetic & Logical Unit / ALU), unit memori/penyimpanan (Memory / Storage Unit), dan unit keluaran (Output Unit) Central Processing Unit (CPU) terdiri dari Control Unit dan ALU. 
 
 8.	Sebutkan kekurangan komputer generasi pertama dibandingkan komputer generasi kedua!
+
 Kekurangan Komputer Generasi Pertama dibandingkan dengan Komputer Generasi Kedua:
 a. Ukuran Fisik: komputer generasi pertama memiliki dimensi yang sangat besar, memerlukan ruang yang luas, seukuran kamar tidur, tidak efisien dalam tata letak dan tidak cocok untuk penggunaan pribadi.
 
@@ -61,6 +63,7 @@ d. Penggunaan Terbatas: komputer generasi pertama lebih banyak digunakan untuk k
 e. Hanya Dimiliki oleh Kalangan Terbatas: keterbatasan dalam kepemilikan komputer generasi pertama hanya terbatas pada kalangan tertentu, tidak seperti saat ini di mana komputer lebih mudah diakses oleh semua orang.
 
 9.	Berdasarkan sistem manakah komputer generasi kedua? Apa saja penemuan baru pada komputer generasi kedua?
+
 Komputer generasi kedua menggunakan transistor sebagai pengganti tabung hampa (vacuum tube) pada komputer generasi pertama. Selain itu, pada komputer generasi kedua juga ditemukan memori inti-magnetikyang mampu mengembangkan komputer dengan lebih cepat. Beberapa penemuan baru pada komputer generasi kedua antara lain:
 
 -Penggunaan Transistor: Transistor digunakan sebagai pengganti tabung hampa pada komputer generasi pertama. Transistor lebih kecil, lebih andal, dan lebih hemat energi daripada tabung hampa.
@@ -74,24 +77,31 @@ Komputer generasi kedua menggunakan transistor sebagai pengganti tabung hampa (v
 -Orientasi Aplikasi: Komputer generasi kedua berorientasi pada aplikasi bisnis dan teknik, berbeda dengan komputer generasi pertama yang hanya fokus pada aplikasi bisnis saja.
 
 10. Deskripsikan apa itu IC atau sirkuit terpadu!
+
 Sirkuit terpadu atau Integrated Circuit (IC) adalah sebuah komponen elektronik yang terdiri dari gabungan dari ratusan, ribuan, bahkan jutaan transistor, resistor, dan kapasitor yang terintegrasi dalam sebuah sirkuit miniatur yang sangat kompleks. IC merupakan teknologi yang memungkinkan berbagai komponen elektronik disatukan menjadi satu chip kecil. IC pertama kali ditemukan pada tahun 1958 oleh Jack Kilby dari Texas Instruments dan Robert Noyce dari Fairchild Semiconductor. IC memiliki beberapa jenis, antara lain IC digital, IC linear, dan Mixed IC. Kelebihan IC antara lain ukurannya yang kecil, hemat energi, dan efisien dalam penggunaan ruang. Sedangkan kelemahan IC adalah sensitif terhadap suhu dan tegangan, serta sulit untuk diperbaiki jika terjadi kerusakan.
 
 11. Apa inovasi terpenting komputer generasi ketiga?
+
 Inovasi terpenting pada komputer generasi ketiga adalah pengembangan integrated circuit (IC) pada tahun 1958 oleh Jack Kilby dari Texas Instruments dan Robert Noyce dari Fairchild Semiconductor. IC merupakan kepingan kecil yang mampu menampung banyak komponen menjadi satu, sehingga membuat komputer pada generasi ketiga menjadi lebih kecil, cepat, dan murah. Selain itu, pada generasi ketiga juga dilakukan pengembangan memori inti magnetik yang mampu menyimpan data secara lebih efisien. Komputer generasi ketiga juga menampilkan inovasi baru seperti pemrosesan paralel dan sistem operasi yang lebih canggih. Hal ini membuat komputer generasi ketiga lebih efisien dalam penggunaan energi dan lebih cepat dalam pemrosesan data.
 
 12. Berikan gambaran singkat tentang komputer generasi keempat. Bagaimana teknologinya lebih baik dari generasi sebelumnya?
+
 Komputer generasi keempat, yang dimulai pada dasawarsa 1970-an, ditandai oleh penemuan MOSFET dan integrasi berskala besar yang membawa perkembangan ke komputer pribadi yang semakin kecil berkat mikroprosesor. Inovasi ini memungkinkan munculnya komputer rumahan, komputer meja, laptop, dan ponsel cerdas yang sangat fenomenal. Teknologi ini membuat komputer generasi keempat lebih baik dari generasi sebelumnya dengan kemampuan untuk menghasilkan komputer yang lebih kecil, portabel, dan efisien dalam penggunaan energi. Komputer generasi keempat membawa revolusi dalam teknologi komputer dengan memperkenalkan perangkat yang lebih mudah diakses oleh masyarakat umum dan memungkinkan integrasi teknologi yang lebih dalam ke dalam kehidupan sehari-hari.
 
 13. Berapakah masa komputer generasi kelima dan bandingkan inovasi dari generasi sebelumnya?
+
 Komputer generasi kelima adalah masa sekarang dan masa yang akan datang. Pada generasi kelima, komputer sudah mulai menggunakan standar PC dan teknologi yang lebih canggih seperti superkonduktor, ULSI, dan kecerdasan buatan (Artificial Intelligence / AI. Inovasi pada generasi kelima ini menjadikan tampilan visual pada komputer memiliki resolusi yang sangat tinggi dan tajam. Negara yang mempelopori sejarah perkembangan komputer pada generasi kelima adalah Jepang. Komputer generasi kelima juga memungkinkan integrasi teknologi yang lebih dalam ke dalam kehidupan sehari-hari, menjadikan komputer sebagai bagian tak terpisahkan dari kehidupan modern.
 
 14. Apa perbedaan antara perangkat keras dan perangkat lunak?
+
 -Perangkat Keras (Hardware): Merupakan bagian fisik komputer yang dapat dilihat dan disentuh. Contohnya meliputi CPU, RAM, hardisk, keyboard, mouse, monitor, dan printer. Menyediakan fondasi fisik untuk komputer beroperasi.
 Perangkat Lunak (Software): Merupakan serangkaian instruksi atau program yang digunakan untuk mengontrol dan mengoperasikan perangkat keras. Contohnya meliputi sistem operasi (Windows, macOS, Linux) dan aplikasi (Microsoft Word, Google Chrome). Memberikan instruksi kepada perangkat keras tentang apa yang harus dilakukan.
 Perangkat keras dan perangkat lunak saling melengkapi dan bekerja bersama untuk menciptakan sistem komputer yang kompleks. Perangkat keras menyediakan fondasi fisik, sementara perangkat lunak memberikan instruksi dan fungsionalitas pada komputer. Analogi yang tepat adalah hubungan antara tubuh (perangkat keras) dan otak (perangkat lunak) manusia; tubuh menyediakan struktur dan kemampuan untuk bergerak, sedangkan otak mengendalikan tindakan.
 
 15. Apa perbedaan antara perangkat lunak sistem dan perangkat lunak aplikasi?
+
 Perangkat lunak sistem dan perangkat lunak aplikasi adalah dua jenis perangkat lunak yang berbeda. Perangkat lunak sistem adalah perangkat lunak yang digunakan untuk mengontrol dan mengoperasikan perangkat keras, seperti sistem operasi, driver perangkat keras, dan utilitas sistem. Sedangkan perangkat lunak aplikasi adalah perangkat lunak yang digunakan untuk melakukan tugas tertentu, seperti pengolah kata, pengolah gambar, dan permainan. Perbedaan utama antara keduanya adalah bahwa perangkat lunak sistem digunakan untuk mengontrol dan mengoperasikan perangkat keras, sedangkan perangkat lunak aplikasi digunakan untuk melakukan tugas tertentu. Perangkat lunak sistem biasanya diinstal pada saat pembelian komputer, sedangkan perangkat lunak aplikasi dapat diinstal setelah pembelian komputer.
+
 
 
 _Tugas pertemuan pertama selesai_
