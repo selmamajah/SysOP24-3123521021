@@ -442,6 +442,138 @@ Secara keseluruhan, EFI dianggap lebih canggih dan fleksibel daripada BIOS, dan 
 _Tugas Pertemuan Ketiga Selesai_
 
 **Tugas-tugas Pertemuan Keempat**
+**1. Buatlah presentasi langkah demi langkah tentang siklus CPU (fetch ,decode, execute) utk mengeksekusi sebuah program. Jelaskan juga peran dari Bahasa pemrograman dan compiler, begitu juga dengan peran dari Sistem Operasi. Gunakan referensi : [Video referensi 1](https://www.youtube.com/watch?v=Z5JC9Ve1sfI) dan [Video referensi 2](https://www.youtube.com/watch?v=jFDMZpkUWCw)**
+
+![circle](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/33beb44a-1d32-43f0-8cf7-283b50d3128e)
+
+Siklus ambil-decode-eksekusi CPU adalah proses dasar yang dilakukan oleh CPU dalam pengolahan instruksi dalam sebuah komputer. Proses ini melibatkan tiga langkah utama:
+
+A. Fetch: CPU mengambil instruksi dari memori utama.
+B. Decode: CPU melakukan decode instruksi untuk mencari tahu apa yang perlu dilakukan.
+C. Execute: CPU melakukan operasi yang diperintahkan dalam instruksi tersebut
+
+Peran dari bahasa pemrograman dan compiler dalam siklus ambil-decode-eksekusi CPU adalah untuk mempermudah programmer dalam menulis program dalam bahasa yang dapat dipahami oleh komputer. Bahasa pemrograman memungkinkan programmer untuk menulis program dalam bahasa tingkat tinggi, yang kemudian dapat diterjemahkan oleh compiler ke dalam bahasa yang dapat dipahami oleh CPU.
+
+Compiler adalah software yang mengkonversi program yang ditulis dalam bahasa pemrograman ke dalam bahasa yang dapat dipahami oleh CPU. Compiler melakukan analisis leksikal, semantik, dan kebenaran logika program, serta melakukan optimalisasi kode untuk meningkatkan kinerja.
+
+Sistem operasi memiliki peran penting dalam siklus ambil-decode-eksekusi CPU, sebagai pengatur jalan untuk CPU. Sistem operasi mengatur bagaimana CPU mengakses memori, mengatur prioritas proses, dan memastikan bahwa setiap proses mendapatkan waktu dan memori yang diperlukan. Sistem operasi juga menangani input-output dan memastikan bahwa setiap proses dapat mengakses perangkat keras seperti keyboard, mouse, dan monitor.
 
 
+**2. Baca dan pahami rangkuman materi OS: [Materi Intro to OS-01](https://github.com/ferryastika/OS-01)**
+Baik, saya sudah membaca dan memahami.
+
+**3. Jalankan VM Debian anda, lalu lakukan clone https://github.com/ferryastika/flops-iops. Compile dan eksekusi sesuai petunjuk. Sesuiakan jumlah thread dengan jumlah CPU yang ada di VM Debianmu. Catat hasilnya dan jelaskan arti dari hasil ekskusi. Lakukan sebanyak 5 kali. Bandingkan hasilnya anatar temanmu. Buat Plot perbandinnya hasil untuk masing-masing PC di tiap kelompokmu. Analisa hasil percobaan tadi dan beri kesimpulan tentang IOPS dan FLOPS.**
+
+Sebelum mencoba _Percobaan_, saya terlebih dahulu memasukkan git clone https://github.com/ferryastika/flops-iops
+
+![WhatsApp Image 2024-03-16 at 23 58 13_e3837267](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/da491513-943f-466d-93aa-8a42e21e471f)
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/6730c4d3-d3d0-4de4-9b31-267c3fe8f7b1)
+
+**BenchUtil**
+
+Program untuk mengukur Kemampuan CPU dalam satuan IOPS and FLOPS.
+
+**Build Binaries**
+$make
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/a61ab66d-eece-4b2e-a71e-da8a347fc780)
+
+Analisis: make digunakan untuk memulai proses kompilasi dan mengelola kumpulan aplikasi dan file dari kode sumber.
+
+**Cleaning Old Build**
+$make clean
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/b5cfa670-ea12-4d37-a828-7ca7ecc98c7d)
+
+Analisis: make clean digunakan untuk menghapus semua file objek dan file eksekusi yang dihasilkan oleh proses kompilasi sebelumnya.
+
+**Install Binaries**
+  $ sudo make install
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/8a0fd97a-382b-4f43-b4f2-756724cc7b59)
+
+Analisis: sudo make install digunakan untuk memulai proses instalasi program yang telah di-compile.
+
+**Uninstall Binaries**
+  $ sudo make uninstall
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/a9cb3dd3-043f-44ac-9c1e-1a9510e02bb1)
+
+Analisis: sudo make uninstall adalah perintah yang digunakan untuk menghapus instalasi sebuah aplikasi yang dibangun dari sumber daya.
+
+
+**Usage**
+  $ iops32 $(nproc)
+  $ iops64 $(nproc)
+  $ flops32 $(nproc)
+  $ flops64 $(nproc)
+
+iops32 iops64 flops32 flops64 pertama
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/b5abda84-4c16-421a-a94a-0aa7ef0a7d1f)
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/b4099bfe-7bd5-4ddb-8d66-bdf4ad1c3af8)
+
+iops32 iops64 flops32 flops64 kedua
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/097a8ee0-18c3-42bc-b74c-48835951b3ce)
+
+iops32 iops64 flops32 flops64 ketiga
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/b1e051a7-7e92-4d2a-ac31-bb08d72ebe7f)
+
+
+iops32 iops64 flops32 flops64 keempat
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/163b082b-8ccb-4e49-b116-31ae06204688)
+
+
+iops32 iops64 flops32 flops64 kelima
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/efc7d2c0-835e-4749-be40-f1624bf7f8a4)
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/56e469a8-9cd9-4d82-9858-4d5fbbf33707)
+
+
+Perbandingan dengan teman:
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/25559192-c943-40e9-b3a0-2bd785ae7df1)
+
+
+Kesimpulan perbandingan:
+Semakin besar iops milik cpu laptop maka semakin kencang dan tepat membaca satuan data dalam hitungan perdetik. Punya saya rata-ratanya besar maka memiliki performa CPU lebih baik.
+
+
+
+**4. Apabila Debian VM mu masih belum terdapat packeage gcc, make dan git, lakukan instalasi dan catat setiap langkahnya!**
+
+Berikut merupakan langkah-langkah yang saya lakukan sebelum mencoba floaps:
+
+A. **su -l, File /etc/apt/sources.list, apt update**
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/46edd5f0-5f21-442f-b8e3-bdc19c7a6242)
+
+Analisis:
+
+**selma@debianSELMA: ~ sul -l**  merupakan perintah ke debian untuk memasukkan kita ke root.
+
+**File /etc/apt/sources.list** adalah file konfigurasi yang digunakan oleh sistem Debian dan turunannya untuk menentukan sumber paket perangkat lunak yang akan diambil paket-paketnya. Ini adalah file penting karena menentukan dari mana sistem akan mengunduh dan menginstal paket-paket perangkat lunak. Ketika saya menjalankan perintah nano /etc/apt/sources.list, saya membuka file ini untuk diedit menggunakan editor teks nano.
+
+Dengan menjalankan **apt update**, saya memastikan bahwa sistem saya memiliki informasi terbaru tentang paket-paket yang tersedia dari repositori yang ditentukan. Ini termasuk informasi seperti daftar paket yang tersedia, versi terbaru dari paket, dan metadata lainnya.
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/7e17be15-58ab-4db8-ac29-d77c27b3c79c)
+
+Analisis: 
+**root@debianSELMA: ~#apt upgrade** Perintah apt upgrade digunakan untuk meng-upgrade paket-paket yang sudah terinstal di sistem Debian ke versi terbaru yang tersedia dari repositori yang terdaftar. Ini adalah langkah yang penting dalam memastikan bahwa sistem saya selalu menggunakan versi terbaru dari perangkat lunak dengan fitur terbaru dan perbaikan keamanan.
+
+B.   **apt install git**
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/e5b5d19f-c5cd-4464-93d5-a66c65cb5e2a)
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/a9b67738-ab74-48ed-974f-c5c0cffee3f8)
+
+
+Analisis: **~# apt install git** apt install git di Debian adalah perintah untuk menginstal perangkat lunak Git menggunakan manajer paket APT (Advanced Package Tool). Git adalah sistem kontrol versi yang digunakan oleh pengembang perangkat lunak untuk mengelola kode sumber proyek mereka. Ini memungkinkan pengembang untuk melacak perubahan dalam kode, bekerja sama dengan tim, dan mengelola versi berbagai perangkat lunak.
+
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/cd2b2fdf-b7be-4176-8b42-48a2700f4c1e)
+
+C. apt install debian package
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/87d9d566-5985-412e-825f-0c39113ed4a6)
+
+Analisis: Dengan menggunakan perintah ini, saya dapat dengan mudah mengelola perangkat lunak pada sistem Debian milik saya, memastikan bahwa sistem debian di perangkat saya terus diperbarui dan dilengkapi dengan perangkat lunak yang diperlukan yaitu debian package.
+
+
+
+
+**_Selesai._**
 
