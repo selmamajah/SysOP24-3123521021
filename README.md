@@ -7,7 +7,6 @@ Sistem Operasi adalah perangkat lunak yang mengatur aktivitas komputer secara ke
 Sistem Operasi adalah perangkat lunak yang bertindak sebagai penghubung antara pengguna dan perangkat keras komputer. Sistem operasi memungkinkan pengguna untuk berkomunikasi dengan perangkat keras dan menjalankan fungsi yang diinginkan.
 
 3.	Sebutkan fungsi utama suatu sistem operasi!
-
 Enam fungsi utama sistem operasi:
 a.	Fungsi Sistem Operasi sebagai Kordinator, yang memberikan fasilitas sehingga segala aktivitas yang kompleks dapat dikerjakan dalam urutan yang benar.
 b.	Fungsi Sistem Operasi sebagai Pengawal, yang memegang kendali proses untuk melindungi file dan memberi batasan pada pembacaan, penulisan, eksekusi data dan program.
@@ -39,7 +38,6 @@ Namun, banyak dari komputer desktop ini sekarang terhubung sebagai sistem jaring
 Namun, banyak dari komputer desktop ini sekarang terhubung sebagai sistem jaringan atau terdistribusi. Komputer dalam sistem jaringan masing-masing memiliki sistem operasi yang dilengkapi dengan kemampuan komunikasi yang memungkinkan pengguna untuk login dari jarak jauh ke sistem mana pun di jaringan dan mentransfer informasi antar mesin yang terhubung ke jaringan. Mesin yang membentuk sistem terdistribusi beroperasi sebagai sistem prosesor tunggal virtual dari sudut pandang pengguna; sistem operasi pusat mengontrol dan membuat transparan lokasi dalam sistem prosesor tertentu atau prosesor dan sistem file yang menangani program tertentu.
 
 5.	Apa saja elemen kunci dari sistem operasi?
-
 Elemen kunci dari sistem operasi meliputi:
 a.	Manajemen sumber daya: Sistem operasi mengelola sumber daya terkait dengan pengendalian perangkat lunak system atau perangkat lunak aplikasi yang sedang dijalankan. 
 b.	Pengaturan sistem kerja perangkat keras: Sistem operasi mengatur dan mengontrol perangkat keras komputer seperti hard disk, printer, keyboard, dan mouse.
@@ -54,7 +52,6 @@ Generasi komputer adalah istilah yang digunakan untuk menggambarkan perkembangan
 Program tersimpan pertama kali diperkenalkan oleh John von Neumann pada tahun 1946. John von Neumann juga memberikan struktur dasar komputer yang meliputi unit masukan (Input Unit), unit kontrol (Control Unit), unit logika dan aritmatika (Arithmetic & Logical Unit / ALU), unit memori/penyimpanan (Memory / Storage Unit), dan unit keluaran (Output Unit) Central Processing Unit (CPU) terdiri dari Control Unit dan ALU. 
 
 8.	Sebutkan kekurangan komputer generasi pertama dibandingkan komputer generasi kedua!
-
 Kekurangan Komputer Generasi Pertama dibandingkan dengan Komputer Generasi Kedua:
 a. Ukuran Fisik: komputer generasi pertama memiliki dimensi yang sangat besar, memerlukan ruang yang luas, seukuran kamar tidur, tidak efisien dalam tata letak dan tidak cocok untuk penggunaan pribadi.
 
@@ -79,8 +76,7 @@ Komputer generasi kedua menggunakan transistor sebagai pengganti tabung hampa (v
 
 -Orientasi Aplikasi: Komputer generasi kedua berorientasi pada aplikasi bisnis dan teknik, berbeda dengan komputer generasi pertama yang hanya fokus pada aplikasi bisnis saja.
 
-10.	 Deskripsikan apa itu IC atau sirkuit terpadu!
-
+10. Deskripsikan apa itu IC atau sirkuit terpadu!
 Sirkuit terpadu atau Integrated Circuit (IC) adalah sebuah komponen elektronik yang terdiri dari gabungan dari ratusan, ribuan, bahkan jutaan transistor, resistor, dan kapasitor yang terintegrasi dalam sebuah sirkuit miniatur yang sangat kompleks. IC merupakan teknologi yang memungkinkan berbagai komponen elektronik disatukan menjadi satu chip kecil. IC pertama kali ditemukan pada tahun 1958 oleh Jack Kilby dari Texas Instruments dan Robert Noyce dari Fairchild Semiconductor. IC memiliki beberapa jenis, antara lain IC digital, IC linear, dan Mixed IC. Kelebihan IC antara lain ukurannya yang kecil, hemat energi, dan efisien dalam penggunaan ruang. Sedangkan kelemahan IC adalah sensitif terhadap suhu dan tegangan, serta sulit untuk diperbaiki jika terjadi kerusakan.
 
 11. Apa inovasi terpenting komputer generasi ketiga?
@@ -100,7 +96,10 @@ Perangkat keras dan perangkat lunak saling melengkapi dan bekerja bersama untuk 
 15. Apa perbedaan antara perangkat lunak sistem dan perangkat lunak aplikasi?
 Perangkat lunak sistem dan perangkat lunak aplikasi adalah dua jenis perangkat lunak yang berbeda. Perangkat lunak sistem adalah perangkat lunak yang digunakan untuk mengontrol dan mengoperasikan perangkat keras, seperti sistem operasi, driver perangkat keras, dan utilitas sistem. Sedangkan perangkat lunak aplikasi adalah perangkat lunak yang digunakan untuk melakukan tugas tertentu, seperti pengolah kata, pengolah gambar, dan permainan. Perbedaan utama antara keduanya adalah bahwa perangkat lunak sistem digunakan untuk mengontrol dan mengoperasikan perangkat keras, sedangkan perangkat lunak aplikasi digunakan untuk melakukan tugas tertentu. Perangkat lunak sistem biasanya diinstal pada saat pembelian komputer, sedangkan perangkat lunak aplikasi dapat diinstal setelah pembelian komputer.
 
+
 _Tugas pertemuan pertama selesai_
+
+
 
 
 
