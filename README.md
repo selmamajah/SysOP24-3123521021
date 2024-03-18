@@ -442,6 +442,9 @@ Secara keseluruhan, EFI dianggap lebih canggih dan fleksibel daripada BIOS, dan 
 _Tugas Pertemuan Ketiga Selesai_
 
 **Tugas-tugas Pertemuan Keempat**
+
+_TUGAS 3_
+
 **1. Buatlah presentasi langkah demi langkah tentang siklus CPU (fetch ,decode, execute) utk mengeksekusi sebuah program. Jelaskan juga peran dari Bahasa pemrograman dan compiler, begitu juga dengan peran dari Sistem Operasi. Gunakan referensi : [Video referensi 1](https://www.youtube.com/watch?v=Z5JC9Ve1sfI) dan [Video referensi 2](https://www.youtube.com/watch?v=jFDMZpkUWCw)**
 
 ![circle](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/33beb44a-1d32-43f0-8cf7-283b50d3128e)
@@ -576,4 +579,7 @@ Analisis: Dengan menggunakan perintah ini, saya dapat dengan mudah mengelola per
 
 
 **_Selesai._**
+
+
+_Tugas 4_
 
