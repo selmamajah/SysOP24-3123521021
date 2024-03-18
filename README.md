@@ -4,7 +4,7 @@
 Sistem Operasi adalah perangkat lunak yang mengatur aktivitas komputer secara keseluruhan, sedangkan aplikasi adalah perangkat lunak yang ditulis untuk melakukan tugas-tugas spesifik dan berjalan di atas sistem operasi. Dengan demikian, sistem operasi menyediakan platform dasar untuk menjalankan perangkat lunak aplikasi. Sistem operasi mengatur sumber daya komputer dan memberikan lingkungan di mana aplikasi dapat berjalan dan digunakan oleh pengguna.
 
 2.	Apa yang dimaksud dengan sistem operasi? Apakah itu perangkat keras atau perangkat lunak?
-Sistem Operasi adalah perangkat lunak yang bertindak sebagai penghubung antara pengguna dan perangkat keras komputer. Sistem operasi memungkinkan pengguna untuk berkomunikasi dengan perangkat keras dan menjalankan fungsi yang diinginkan.
+Sistem Operasi adalah perangkat lunak yang bertindak sebagai penghubung antara pengguna dan perangkat keras komputer. Sistem operasi memungkinkan pengguna untuk berkomunikasi dengan perangkat keras dan menjalankan fungsi yang diinginkan. Dengan adanya sistem operasi maka pengguna dapat berkomunikasi dengan perangkat seperti laptop.
 
 3.	Sebutkan fungsi utama suatu sistem operasi!
 Enam fungsi utama sistem operasi:
@@ -15,7 +15,7 @@ d.	Fungsi Sistem Operasi sebagai pengoptimal, yang akan membuat scedule atas beb
 e.	Fungsi Sistem Operasi sebagai akuntan, yang menjaga pewaktuan CPU tetap berada pada jalur yang benar, penggunaan memori, operasi I/O, penyimpanan pada disk dan lain sebagainya.
 f.	Fungsi Sistem Operasi sebagai server, yang memberikan pelayanan yang diperlukan pengguna, seperti restrukturisasi direktori file.
 
-4.	Jelaskan secara singkat evolusi sistem operasi!
+5.	Jelaskan secara singkat evolusi sistem operasi!
 a.	Generasi Awal (1945-1955)
 Generasi pertama merupakan awal perkembangan sistem komputasi elektronik sebagai pengganti sistem komputasi mekanik. Hal itu disebabkan kecepatan manusia untuk menghitung terbatas. Selain itu manusia sangat mudah untuk membuat kecerobohan, kekeliruan bahkan kesalahan. Pada generasi ini belum ada sistem operasi, maka sistem komputer diberi instruksi yang harus dikerjakan secara langsung oleh pengguna.
 
@@ -26,16 +26,7 @@ c.	Generasi Ketiga (1964-1979)
 Sistem operasi pada generasi ini dikembangkan untuk melayani banyak pengguna, jadi para pengguna berkomunikasi lewat terminal secara on-line ke komputer. Sistem operasi menjadi multi-user (digunakan oleh banyak pengguna sekaligus), multi-programming (melayani banyak program sekaligus) dan multi tasking (melayani banyak tugas dan pekerjaan).
 
 d.	Generasi Keempat (1979-Sekarang)
-Generasi keempat ditandai dengan munculnya komputer pribadi dan workstation. Miniaturisasi sirkuit dan komponen elektronik dilanjutkan dan Large Scale Integration (LSI), teknologi komponen generasi ketiga, digantikan oleh Very Large Scale Integration (VLSI), yang menjadi ciri generasi keempat. VLSI dengan kapasitasnya untuk menampung ribuan transistor dalam sebuah chip kecil, memungkinkan pengembangan komputer desktop dengan kemampuan melebihi kemampuan yang berbeda dari generasi sebelumnya.
-
-Sistem operasi yang mengontrol mesin desktop ini telah membawa kita kembali ke lingkaran penuh, ke jenis lingkungan Microsoft di mana setiap pengguna menempati seluruh komputer selama pelaksanaan pekerjaan. Hal ini kini berjalan lebih baik, bukan hanya karena kemajuan yang dicapai selama bertahun-tahun telah membuat komputer virtual yang dihasilkan dari kombinasi sistem operasi atau perangkat keras jauh lebih mudah digunakan atau dalam kata-kata yang populer, “ramah pengguna.”
-
-Namun, peningkatan dalam miniaturisasi perangkat keras dan teknologi telah berkembang begitu cepat sehingga kini kita memiliki stasiun kerja murah – komputer sekelas yang mampu mendukung multiprogramming dan pembagian waktu. Oleh karena itu, sistem operasi yang mendukung komputer pribadi dan stasiun kerja saat ini terlihat mirip dengan sistem operasi yang tersedia untuk komputer mini generasi ketiga.
-Contoh: DOS Microsoft untuk komputer pribadi yang kompatibel dengan IBM dan UNIX untuk stasiun kerja.
-
-Namun, banyak dari komputer desktop ini sekarang terhubung sebagai sistem jaringan atau terdistribusi. Komputer dalam sistem jaringan masing-masing memiliki sistem operasi yang dilengkapi dengan kemampuan komunikasi yang memungkinkan pengguna untuk login dari jarak jauh ke sistem mana pun di jaringan dan mentransfer informasi antar mesin yang terhubung ke jaringan. Mesin yang membentuk sistem terdistribusi beroperasi sebagai sistem prosesor tunggal virtual dari sudut pandang pengguna; sistem operasi pusat mengontrol dan membuat transparan lokasi dalam sistem prosesor tertentu atau prosesor dan sistem file yang menangani program tertentu. 
-
-Namun, banyak dari komputer desktop ini sekarang terhubung sebagai sistem jaringan atau terdistribusi. Komputer dalam sistem jaringan masing-masing memiliki sistem operasi yang dilengkapi dengan kemampuan komunikasi yang memungkinkan pengguna untuk login dari jarak jauh ke sistem mana pun di jaringan dan mentransfer informasi antar mesin yang terhubung ke jaringan. Mesin yang membentuk sistem terdistribusi beroperasi sebagai sistem prosesor tunggal virtual dari sudut pandang pengguna; sistem operasi pusat mengontrol dan membuat transparan lokasi dalam sistem prosesor tertentu atau prosesor dan sistem file yang menangani program tertentu.
+Generasi keempat ditandai dengan munculnya komputer pribadi dan workstation. Miniaturisasi sirkuit elektronik berlanjut dengan penggunaan teknologi Very Large Scale Integration (VLSI), yang memungkinkan pengembangan komputer desktop dengan kemampuan yang lebih besar. Sistem operasi seperti DOS Microsoft untuk komputer pribadi dan UNIX untuk workstation mulai mendominasi. Komputer desktop ini sering terhubung dalam sistem jaringan atau terdistribusi, dengan kemampuan login dari jarak jauh dan transfer informasi antar mesin. Mesin dalam sistem terdistribusi dianggap sebagai sistem prosesor tunggal virtual bagi pengguna, dengan sistem operasi pusat mengontrol lokasi dan sistem file yang mengelola program tertentu.
 
 5.	Apa saja elemen kunci dari sistem operasi?
 Elemen kunci dari sistem operasi meliputi:
