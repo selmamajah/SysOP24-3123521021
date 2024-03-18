@@ -413,6 +413,7 @@ Revision: 7
 
 
 **Tugas Pertemuan Ketiga**
+![alt text](https://github.com/selmamajah/SysOP24-3123521021/blob/main/Selma%20Mindmapping%20tugas%20minggu%20ketiga.png?raw=true)
 
 
 
