@@ -463,6 +463,7 @@ Sistem operasi memiliki peran penting dalam siklus ambil-decode-eksekusi CPU, se
 
 
 **2. Baca dan pahami rangkuman materi OS: [Materi Intro to OS-01](https://github.com/ferryastika/OS-01)**
+
 Baik, saya sudah membaca dan memahami.
 
 **3. Jalankan VM Debian anda, lalu lakukan clone https://github.com/ferryastika/flops-iops. Compile dan eksekusi sesuai petunjuk. Sesuiakan jumlah thread dengan jumlah CPU yang ada di VM Debianmu. Catat hasilnya dan jelaskan arti dari hasil ekskusi. Lakukan sebanyak 5 kali. Bandingkan hasilnya anatar temanmu. Buat Plot perbandinnya hasil untuk masing-masing PC di tiap kelompokmu. Analisa hasil percobaan tadi dan beri kesimpulan tentang IOPS dan FLOPS.**
@@ -508,24 +509,25 @@ Analisis: sudo make uninstall adalah perintah yang digunakan untuk menghapus ins
   $ flops32 $(nproc)
   $ flops64 $(nproc)
 
-iops32 iops64 flops32 flops64 pertama
+**iops32 iops64 flops32 flops64 pertama**
 
 ![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/b5abda84-4c16-421a-a94a-0aa7ef0a7d1f)
 
 ![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/b4099bfe-7bd5-4ddb-8d66-bdf4ad1c3af8)
 
-iops32 iops64 flops32 flops64 kedua
+**iops32 iops64 flops32 flops64 kedua**
+
 ![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/097a8ee0-18c3-42bc-b74c-48835951b3ce)
 
-iops32 iops64 flops32 flops64 ketiga
+**iops32 iops64 flops32 flops64 Ketiga**
+
 ![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/b1e051a7-7e92-4d2a-ac31-bb08d72ebe7f)
 
+**iops32 iops64 flops32 flops64 Keempat**
 
-iops32 iops64 flops32 flops64 keempat
 ![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/163b082b-8ccb-4e49-b116-31ae06204688)
 
-
-iops32 iops64 flops32 flops64 kelima
+**iops32 iops64 flops32 flops64 kelima**
 ![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/efc7d2c0-835e-4749-be40-f1624bf7f8a4)
 ![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/56e469a8-9cd9-4d82-9858-4d5fbbf33707)
 
