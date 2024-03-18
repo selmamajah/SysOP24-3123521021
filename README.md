@@ -439,5 +439,9 @@ Perbedaan antara BIOS dan EFI (Extensible Firmware Interface) terletak pada arsi
 
 Secara keseluruhan, EFI dianggap lebih canggih dan fleksibel daripada BIOS, dan banyak sistem modern mengadopsi EFI sebagai pengganti BIOS.
 
+_Tugas Pertemuan 3 selesai_
+
+**Tugas-tugas Pertemuan Keempat**
+
 
 
