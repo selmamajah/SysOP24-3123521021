@@ -12,10 +12,15 @@ Sistem Operasi adalah perangkat lunak yang bertindak sebagai penghubung antara p
 
 Enam fungsi utama sistem operasi:
 a.	Fungsi Sistem Operasi sebagai Kordinator, yang memberikan fasilitas sehingga segala aktivitas yang kompleks dapat dikerjakan dalam urutan yang benar.
+
 b.	Fungsi Sistem Operasi sebagai Pengawal, yang memegang kendali proses untuk melindungi file dan memberi batasan pada pembacaan, penulisan, eksekusi data dan program.
+
 c.	Fungsi Sistem Operasi sebagai penjaga gerbang, yang akan mengawasi siapa saja yang dapat masuk kedalam sistem komputer.
+
 d.	Fungsi Sistem Operasi sebagai pengoptimal, yang akan membuat scedule atas beberapa masukan pengguna, akses basis data, komputasi, keluaran, dan lain sebagainya untuk meningkatkan kinerja sistem.
+
 e.	Fungsi Sistem Operasi sebagai akuntan, yang menjaga pewaktuan CPU tetap berada pada jalur yang benar, penggunaan memori, operasi I/O, penyimpanan pada disk dan lain sebagainya.
+
 f.	Fungsi Sistem Operasi sebagai server, yang memberikan pelayanan yang diperlukan pengguna, seperti restrukturisasi direktori file.
 
 5.	Jelaskan secara singkat evolusi sistem operasi!
@@ -32,13 +37,18 @@ Sistem operasi pada generasi ini dikembangkan untuk melayani banyak pengguna, ja
 d.	Generasi Keempat (1979-Sekarang)
 Generasi keempat ditandai dengan munculnya komputer pribadi dan workstation. Miniaturisasi sirkuit elektronik berlanjut dengan penggunaan teknologi Very Large Scale Integration (VLSI), yang memungkinkan pengembangan komputer desktop dengan kemampuan yang lebih besar. Sistem operasi seperti DOS Microsoft untuk komputer pribadi dan UNIX untuk workstation mulai mendominasi. Komputer desktop ini sering terhubung dalam sistem jaringan atau terdistribusi, dengan kemampuan login dari jarak jauh dan transfer informasi antar mesin. Mesin dalam sistem terdistribusi dianggap sebagai sistem prosesor tunggal virtual bagi pengguna, dengan sistem operasi pusat mengontrol lokasi dan sistem file yang mengelola program tertentu.
 
-5.	Apa saja elemen kunci dari sistem operasi?
+4.	Apa saja elemen kunci dari sistem operasi?
 
 Elemen kunci dari sistem operasi meliputi:
+
 a.	Manajemen sumber daya: Sistem operasi mengelola sumber daya terkait dengan pengendalian perangkat lunak system atau perangkat lunak aplikasi yang sedang dijalankan. 
+
 b.	Pengaturan sistem kerja perangkat keras: Sistem operasi mengatur dan mengontrol perangkat keras komputer seperti hard disk, printer, keyboard, dan mouse.
+
 c.	Penyediaan fasilitas dan layanan untuk para pemrogram: Sistem operasi menyediakan berbagai fasilitas dan layanan seperti editor dan debugger untuk membantu para pemrogram dalam membuat program.
+
 d.	Alokasi ruang memori dan sumber daya lainnya secara sistematis: Sistem operasi mengalokasikan ruang memori dan sumber daya lainnya secara sistematis untuk memastikan setiap program dan aplikasi memiliki akses ke sumber daya yang diperlukan.
+
 e.	Keamanan sistem komputer: Sistem operasi juga bertanggung jawab menjaga keamanan sistem komputer dengan memberikan akses yang terbatas pada pengguna dan memastikan program serta aplikasi yang dijalankan tidak merusak system.
 
 6.	Apa yang Anda maksud dengan istilah generasi komputer?
@@ -95,7 +105,8 @@ Komputer generasi kelima adalah masa sekarang dan masa yang akan datang. Pada ge
 14. Apa perbedaan antara perangkat keras dan perangkat lunak?
 
 -Perangkat Keras (Hardware): Merupakan bagian fisik komputer yang dapat dilihat dan disentuh. Contohnya meliputi CPU, RAM, hardisk, keyboard, mouse, monitor, dan printer. Menyediakan fondasi fisik untuk komputer beroperasi.
-Perangkat Lunak (Software): Merupakan serangkaian instruksi atau program yang digunakan untuk mengontrol dan mengoperasikan perangkat keras. Contohnya meliputi sistem operasi (Windows, macOS, Linux) dan aplikasi (Microsoft Word, Google Chrome). Memberikan instruksi kepada perangkat keras tentang apa yang harus dilakukan.
+
+-Perangkat Lunak (Software): Merupakan serangkaian instruksi atau program yang digunakan untuk mengontrol dan mengoperasikan perangkat keras. Contohnya meliputi sistem operasi (Windows, macOS, Linux) dan aplikasi (Microsoft Word, Google Chrome). Memberikan instruksi kepada perangkat keras tentang apa yang harus dilakukan.
 Perangkat keras dan perangkat lunak saling melengkapi dan bekerja bersama untuk menciptakan sistem komputer yang kompleks. Perangkat keras menyediakan fondasi fisik, sementara perangkat lunak memberikan instruksi dan fungsionalitas pada komputer. Analogi yang tepat adalah hubungan antara tubuh (perangkat keras) dan otak (perangkat lunak) manusia; tubuh menyediakan struktur dan kemampuan untuk bergerak, sedangkan otak mengendalikan tindakan.
 
 15. Apa perbedaan antara perangkat lunak sistem dan perangkat lunak aplikasi?
