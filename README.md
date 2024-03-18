@@ -1,12 +1,15 @@
 **Tugas Sistem Operasi Pertemuan Pertama**
 
 1.	Apa hubungan antara perangkat lunak aplikasi dan sistem operasi?
+
 Sistem Operasi adalah perangkat lunak yang mengatur aktivitas komputer secara keseluruhan, sedangkan aplikasi adalah perangkat lunak yang ditulis untuk melakukan tugas-tugas spesifik dan berjalan di atas sistem operasi. Dengan demikian, sistem operasi menyediakan platform dasar untuk menjalankan perangkat lunak aplikasi. Sistem operasi mengatur sumber daya komputer dan memberikan lingkungan di mana aplikasi dapat berjalan dan digunakan oleh pengguna.
 
 2.	Apa yang dimaksud dengan sistem operasi? Apakah itu perangkat keras atau perangkat lunak?
+
 Sistem Operasi adalah perangkat lunak yang bertindak sebagai penghubung antara pengguna dan perangkat keras komputer. Sistem operasi memungkinkan pengguna untuk berkomunikasi dengan perangkat keras dan menjalankan fungsi yang diinginkan. Dengan adanya sistem operasi maka pengguna dapat berkomunikasi dengan perangkat seperti laptop.
 
 3.	Sebutkan fungsi utama suatu sistem operasi!
+
 Enam fungsi utama sistem operasi:
 a.	Fungsi Sistem Operasi sebagai Kordinator, yang memberikan fasilitas sehingga segala aktivitas yang kompleks dapat dikerjakan dalam urutan yang benar.
 b.	Fungsi Sistem Operasi sebagai Pengawal, yang memegang kendali proses untuk melindungi file dan memberi batasan pada pembacaan, penulisan, eksekusi data dan program.
@@ -16,16 +19,21 @@ e.	Fungsi Sistem Operasi sebagai akuntan, yang menjaga pewaktuan CPU tetap berad
 f.	Fungsi Sistem Operasi sebagai server, yang memberikan pelayanan yang diperlukan pengguna, seperti restrukturisasi direktori file.
 
 5.	Jelaskan secara singkat evolusi sistem operasi!
+
 a.	Generasi Awal (1945-1955)
 Generasi pertama merupakan awal perkembangan sistem komputasi elektronik sebagai pengganti sistem komputasi mekanik. Hal itu disebabkan kecepatan manusia untuk menghitung terbatas. Selain itu manusia sangat mudah untuk membuat kecerobohan, kekeliruan bahkan kesalahan. Pada generasi ini belum ada sistem operasi, maka sistem komputer diberi instruksi yang harus dikerjakan secara langsung oleh pengguna.
+
 b.	Generasi Kedua (1956-1964)
 Pada generasi ini memperkenalkan Batch Processing System, yaitu Job yang dikerjakan dalam satu rangkaian, lalu dieksekusi secara berurutan. Generasi ini sistem komputer belum dilengkapi sistem operasi. Tetapi beberapa fungsi sistem operasi telah ada, contohnya fungsi sistem operasi ialah FMS dan IBSYS.
+
 c.	Generasi Ketiga (1964-1979)
 Sistem operasi pada generasi ini dikembangkan untuk melayani banyak pengguna, jadi para pengguna berkomunikasi lewat terminal secara on-line ke komputer. Sistem operasi menjadi multi-user (digunakan oleh banyak pengguna sekaligus), multi-programming (melayani banyak program sekaligus) dan multi tasking (melayani banyak tugas dan pekerjaan).
+
 d.	Generasi Keempat (1979-Sekarang)
 Generasi keempat ditandai dengan munculnya komputer pribadi dan workstation. Miniaturisasi sirkuit elektronik berlanjut dengan penggunaan teknologi Very Large Scale Integration (VLSI), yang memungkinkan pengembangan komputer desktop dengan kemampuan yang lebih besar. Sistem operasi seperti DOS Microsoft untuk komputer pribadi dan UNIX untuk workstation mulai mendominasi. Komputer desktop ini sering terhubung dalam sistem jaringan atau terdistribusi, dengan kemampuan login dari jarak jauh dan transfer informasi antar mesin. Mesin dalam sistem terdistribusi dianggap sebagai sistem prosesor tunggal virtual bagi pengguna, dengan sistem operasi pusat mengontrol lokasi dan sistem file yang mengelola program tertentu.
 
 5.	Apa saja elemen kunci dari sistem operasi?
+
 Elemen kunci dari sistem operasi meliputi:
 a.	Manajemen sumber daya: Sistem operasi mengelola sumber daya terkait dengan pengendalian perangkat lunak system atau perangkat lunak aplikasi yang sedang dijalankan. 
 b.	Pengaturan sistem kerja perangkat keras: Sistem operasi mengatur dan mengontrol perangkat keras komputer seperti hard disk, printer, keyboard, dan mouse.
@@ -34,6 +42,7 @@ d.	Alokasi ruang memori dan sumber daya lainnya secara sistematis: Sistem operas
 e.	Keamanan sistem komputer: Sistem operasi juga bertanggung jawab menjaga keamanan sistem komputer dengan memberikan akses yang terbatas pada pengguna dan memastikan program serta aplikasi yang dijalankan tidak merusak system.
 
 6.	Apa yang Anda maksud dengan istilah generasi komputer?
+
 Generasi komputer adalah istilah yang digunakan untuk menggambarkan perkembangan teknologi komputer dari waktu ke waktu. Perkembangan ini dibagi menjadi beberapa generasi, dimulai dari generasi pertama hingga generasi kelima. Setiap generasi memiliki ciri khas dan teknologi yang berbeda-beda. Generasi pertama komputer menggunakan tabung vakum untuk menyimpan data dan ukurannya memakan satu ruangan. Generasi kedua dimulai ketika transistor menggantikan tabung vakum. Generasi ketiga ditandai dengan pengembangan integrated circuit, sedangkan generasi keempat memiliki terobosan berupa mikroprosesor yang dapat menyatukan ribuan IC ke dalam sebuah keping. Generasi kelima saat ini ditandai dengan munculnya teknologi AI dan quantum computing. Setiap generasi komputer memiliki peran penting dalam perkembangan teknologi komputer yang kita kenal saat ini.
 
 7.	Siapa yang memberikan gambaran tentang program tersimpan dan pada tahun berapa? Siapa yang memberikan struktur dasar komputer?
