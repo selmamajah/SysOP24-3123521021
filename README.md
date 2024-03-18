@@ -76,7 +76,7 @@ e. Hanya Dimiliki oleh Kalangan Terbatas: keterbatasan dalam kepemilikan kompute
 
 Komputer generasi kedua menggunakan transistor sebagai pengganti tabung hampa (vacuum tube) pada komputer generasi pertama. Selain itu, pada komputer generasi kedua juga ditemukan memori inti-magnetikyang mampu mengembangkan komputer dengan lebih cepat. Beberapa penemuan baru pada komputer generasi kedua antara lain:
 
-a, Penggunaan Transistor: Transistor digunakan sebagai pengganti tabung hampa pada komputer generasi pertama. Transistor lebih kecil, lebih andal, dan lebih hemat energi daripada tabung hampa.
+a. Penggunaan Transistor: Transistor digunakan sebagai pengganti tabung hampa pada komputer generasi pertama. Transistor lebih kecil, lebih andal, dan lebih hemat energi daripada tabung hampa.
 
 b. Bahasa Pemrograman: Pada komputer generasi kedua, bahasa pemrograman tingkat tinggi seperti COBOL, ALGOL, dan FORTRAN mulai digunakan.
 
