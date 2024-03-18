@@ -766,6 +766,10 @@ $ ls –l /etc | sort | more
 
 ![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/8fa5da86-3151-44f6-ad81-626ace5090a0)
 
+Analisis: 
+
+Perintah $who di Debian (dan di distribusi Linux lainnya) digunakan untuk menampilkan informasi tentang pengguna yang saat ini login ke sistem. Ini termasuk nama pengguna, terminal atau lokasi di mana mereka login, waktu login, dan informasi tambahan seperti IP address jika mereka login melalui jaringan. Perintah ini juga dapat menampilkan pengguna yang login melalui terminal virtual, seperti pengguna yang login melalui SSH. Itu adalah salah satu dari beberapa perintah yang digunakan untuk memantau aktivitas pengguna pada sistem Linux.
+
 2.  $ echo hello
 $ echo hello > output
 $ cat output
