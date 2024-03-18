@@ -11,6 +11,7 @@ Sistem Operasi adalah perangkat lunak yang bertindak sebagai penghubung antara p
 3.	Sebutkan fungsi utama suatu sistem operasi!
 
 Enam fungsi utama sistem operasi:
+
 a.	Fungsi Sistem Operasi sebagai Kordinator, yang memberikan fasilitas sehingga segala aktivitas yang kompleks dapat dikerjakan dalam urutan yang benar.
 
 b.	Fungsi Sistem Operasi sebagai Pengawal, yang memegang kendali proses untuk melindungi file dan memberi batasan pada pembacaan, penulisan, eksekusi data dan program.
