@@ -18,13 +18,10 @@ f.	Fungsi Sistem Operasi sebagai server, yang memberikan pelayanan yang diperluk
 5.	Jelaskan secara singkat evolusi sistem operasi!
 a.	Generasi Awal (1945-1955)
 Generasi pertama merupakan awal perkembangan sistem komputasi elektronik sebagai pengganti sistem komputasi mekanik. Hal itu disebabkan kecepatan manusia untuk menghitung terbatas. Selain itu manusia sangat mudah untuk membuat kecerobohan, kekeliruan bahkan kesalahan. Pada generasi ini belum ada sistem operasi, maka sistem komputer diberi instruksi yang harus dikerjakan secara langsung oleh pengguna.
-
 b.	Generasi Kedua (1956-1964)
 Pada generasi ini memperkenalkan Batch Processing System, yaitu Job yang dikerjakan dalam satu rangkaian, lalu dieksekusi secara berurutan. Generasi ini sistem komputer belum dilengkapi sistem operasi. Tetapi beberapa fungsi sistem operasi telah ada, contohnya fungsi sistem operasi ialah FMS dan IBSYS.
-
 c.	Generasi Ketiga (1964-1979)
 Sistem operasi pada generasi ini dikembangkan untuk melayani banyak pengguna, jadi para pengguna berkomunikasi lewat terminal secara on-line ke komputer. Sistem operasi menjadi multi-user (digunakan oleh banyak pengguna sekaligus), multi-programming (melayani banyak program sekaligus) dan multi tasking (melayani banyak tugas dan pekerjaan).
-
 d.	Generasi Keempat (1979-Sekarang)
 Generasi keempat ditandai dengan munculnya komputer pribadi dan workstation. Miniaturisasi sirkuit elektronik berlanjut dengan penggunaan teknologi Very Large Scale Integration (VLSI), yang memungkinkan pengembangan komputer desktop dengan kemampuan yang lebih besar. Sistem operasi seperti DOS Microsoft untuk komputer pribadi dan UNIX untuk workstation mulai mendominasi. Komputer desktop ini sering terhubung dalam sistem jaringan atau terdistribusi, dengan kemampuan login dari jarak jauh dan transfer informasi antar mesin. Mesin dalam sistem terdistribusi dianggap sebagai sistem prosesor tunggal virtual bagi pengguna, dengan sistem operasi pusat mengontrol lokasi dan sistem file yang mengelola program tertentu.
 
