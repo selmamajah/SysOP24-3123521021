@@ -129,7 +129,7 @@ _Tugas pertemuan pertama selesai_
 
 
 
-**Tugas System Operasi Pertemuan Kedua**
+**Tugas Sistem Operasi Pertemuan Kedua**
 
 
 
