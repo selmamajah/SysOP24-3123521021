@@ -465,8 +465,8 @@ Decode
 ![INISIALISASI AWAL 2](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/6ca0d2e1-4a50-4946-9c83-92ef1bfe970a)
 
 excute
+![excurteeee](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/e8f458ae-2144-4c61-a3e8-ba7c7496d269)
 
-![DECODE](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/f908e088-5b20-43b3-9ad1-a320ace78718)
 
 
 Siklus ambil-decode-eksekusi CPU adalah proses dasar yang dilakukan oleh CPU dalam pengolahan instruksi dalam sebuah komputer. Proses ini melibatkan tiga langkah utama:
