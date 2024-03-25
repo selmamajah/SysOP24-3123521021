@@ -882,10 +882,7 @@ Analisis: ada file di penyimpanan saya bernama kelas1.txt dan kelas2.txt yang sa
 
 ![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/b0d9d5ba-0ef4-42af-a571-bddde72ad99a)
 
-Analisis: 
-
-
-Analisis:
+Analisis: $ cat kelas.txt | sort | uniq: Perintah ini membaca isi dari file kelas.txt yang baru dibuat, mengurutkannya secara alfabetis dengan perintah sort, dan kemudian menghilangkan baris-baris yang duplikat dengan menggunakan perintah uniq.
 
 **Latihan**
 
