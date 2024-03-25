@@ -890,23 +890,34 @@ Analisis: $ cat kelas.txt | sort | uniq: Perintah ini membaca isi dari file kela
 
 ![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/527fedb3-a585-4520-bac0-c781722f6454)
 
-Analisis: 
+Analisis: ls -l adalah perintah untuk melihat direktori yang aktif lalu outputnya di belokkan ke file baru.txt dengan cat akhirnya output tersebut muncul di layar terminal.
+
 2. Lihat daftar secara lengkap pada direktori /etc/passwd, belokkan tampilan standard output ke file baru tanpa menghapus file baru sebelumnya.
 
 ![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/bf0301f3-ac7e-464a-ae85-06c77bb762fa)
 
+Analisis: penumpukan di file-file itu tampa menghapus file lama cukup menggunakan perintah dengan simbol >>.
+
 3. Urutkan file baru dengan cara membelokkan standard input.
 
 ![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/7707710b-f39c-43bd-819d-9dfc03276dc2)
+
+Analisis: pengurutan alfabetis text di dalam file-file itu cukup menggunakan perintah sort.
 
 
 4. Urutkan file baru dengan cara membelokkan standard input dan standard output ke file baru.urut.
 
 ![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/e46062ec-07b6-4058-b712-3f8c3aa4e5a3)
 
+Analisis: perpindahan output dari file satu ke lainnya cukup menggunakan perintah simbol >.
+
 5. Buatlah direktori latihan 2 sebanyak 2 kali dan belokkan standard error ke file rmdirerror.txt.
 
 ![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/734654e2-d5bc-4247-bae0-18379752889c)
+
+analisis: mkdir latihan2 Perintah ini membuat direktori bernama "latihan2".
+
+mkdir latihan2 2> myerror.txt digunakan untuk membuat direktori baru bernama "latihan2" dan mengalihkan pesan kesalahan yang dihasilkan (jika ada) ke dalam file yang disebut "myerror.txt".
 
 6. Urutkan kalimat berikut :
 
@@ -921,7 +932,21 @@ Dengan menggunakan notasi here document (<@@@ ...@@@)
 
 ![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/7d4fabd9-0213-4ff3-95ad-e26a33a50384)
 
+Analisis: selain sort untuk mengurutkan kalimat kita bisa menggunakan notasi <<@@@...@@@ 
+
 7. Hitung jumlah baris, kata dan karakter dari file baru.urut dengan menggunakan filter dan tambahkan data tersebut ke file baru.
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/1907db81-ef3b-4466-92d3-138e01c1dd4d)
+
+Analisis: 
+
+$ cat baru.urut | wc digunakan untuk menghitung jumlah baris, kata, dan byte dalam file "baru.urut".
+
+$ cat baru.urut | wc -l digunakan untuk menghitung jumlah baris dalam file "baru.urut".
+
+$ cat baru.urut | wc -c digunakan untuk menghitung jumlah byte dari isi file "baru.urut".
+
+$ cat baru.urut | wc -w digunakan untuk menghitung jumlah kata dalam file "baru.urut".
 
 8. Gunakan perintah di bawah ini dan perhatikan hasilnya.
  $ cat > hello.txt
@@ -936,6 +961,14 @@ Dengan menggunakan notasi here document (<@@@ ...@@@)
  $ cat hello.txt | grep “dog” | grep –v “cat”
 
 ![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/c4414c6c-e425-4889-9a25-c8bc28504b0e)
+
+Analisis: 
+
+$ cat > hallo.txt digunakan untuk membuat file "hello.txt"
+
+$ cat hello.txt | sort | uniq digunakan untuk memproses isi dari file "hello.txt" dengan melakukan tiga operasi
+
+$ cat hello.txt | grep "dog" | grep -v "cat" digunakan untuk mengambil baris-baris yang mengandung kata "dog" dan kemudian menghilangkan baris-baris yang juga mengandung kata "cat".
 
 
 _Tugas tiga dan tugas empat di pertemuan keempat selesai_
