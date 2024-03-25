@@ -844,7 +844,7 @@ $ cat < out >> out: Perintah ini mencoba untuk mengarahkan kembali isi dari file
 
 Pada akhirnya, saya memutuskan proses dengan menekan `Ctrl-c`. Setelah itu, saya ingin menganalisis konten dari file "out". Namun, karena langkah terakhir menyebabkan loop tak terbatas, konten "out" mungkin sangat besar dan sulit dianalisis.
 
----------
+
 
 **Percobaan 4: Filter**
 
@@ -865,16 +865,27 @@ Pada akhirnya, saya memutuskan proses dengan menekan `Ctrl-c`. Setelah itu, saya
  Asep
  Muchlis
  [Ctrl-d]
- $ cat kelas1.txt kelas2.txt | sort
+ $ cat kelas1.txt kelas2.txt | sort.txt
  $ cat kelas1.txt kelas2.txt > kelas.txt
  $ cat kelas.txt | sort | uniq
 
 
 ![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/9c68dcb6-35b0-45e3-b691-ba4ec247d9b9)
 
+Analisis: Perintah "grep selma /etc/passwd" digunakan untuk mencari entri yang mengandung kata "selma" dalam file "/etc/passwd" di sistem Debian.
+
+perintah lengkap "ls /etc | wc -l" menghitung jumlah file dan direktori yang ada dalam direktori "/etc" di sistem Debian dengan menghitung jumlah baris dalam output dari perintah "ls /etc".
+
 ![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/dac9e10c-261d-498b-9fcf-6b66fc05406c)
 
-![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/58fdaa18-8756-4cf1-8097-d8cf44bf5895)
+Analisis: ada file di penyimpanan saya bernama kelas1.txt dan kelas2.txt yang saya belokan outputnya untuk di panggil dengan perintah cat. perintah sort sendiri di gunakan untuk mengurutkan isi file secara alfebetis.
+
+![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/b0d9d5ba-0ef4-42af-a571-bddde72ad99a)
+
+Analisis: 
+
+
+Analisis:
 
 **Latihan**
 
@@ -882,6 +893,7 @@ Pada akhirnya, saya memutuskan proses dengan menekan `Ctrl-c`. Setelah itu, saya
 
 ![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/527fedb3-a585-4520-bac0-c781722f6454)
 
+Analisis: 
 2. Lihat daftar secara lengkap pada direktori /etc/passwd, belokkan tampilan standard output ke file baru tanpa menghapus file baru sebelumnya.
 
 ![image](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/bf0301f3-ac7e-464a-ae85-06c77bb762fa)
