@@ -449,7 +449,22 @@ _TUGAS 3_
 
 **1. Buatlah presentasi langkah demi langkah tentang siklus CPU (fetch ,decode, execute) utk mengeksekusi sebuah program. Jelaskan juga peran dari Bahasa pemrograman dan compiler, begitu juga dengan peran dari Sistem Operasi. Gunakan referensi : [Video referensi 1](https://www.youtube.com/watch?v=Z5JC9Ve1sfI) dan [Video referensi 2](https://www.youtube.com/watch?v=jFDMZpkUWCw)**
 
-![circle](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/33beb44a-1d32-43f0-8cf7-283b50d3128e)
+1. Presentasi langkah-langkah tentang siklus
+![NOMER 1 TUGAS 3 TT](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/5a816149-a6be-4676-ab59-9d63d50876f5)
+
+Inisialiasi awal
+
+Fetch
+![INISIALISASI AWAL 1](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/b93f07e8-c057-41a7-862a-711efe69a545)
+
+![INISIALISASI AWAL KEDUA](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/2c1a8320-5fa2-493c-bf69-c57474e436bb)
+
+Decode
+![INISIALISASI AWAL 2](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/6ca0d2e1-4a50-4946-9c83-92ef1bfe970a)
+
+excute
+![DECODE](https://github.com/selmamajah/SysOP24-3123521021/assets/148773260/f908e088-5b20-43b3-9ad1-a320ace78718)
+
 
 Siklus ambil-decode-eksekusi CPU adalah proses dasar yang dilakukan oleh CPU dalam pengolahan instruksi dalam sebuah komputer. Proses ini melibatkan tiga langkah utama:
 
